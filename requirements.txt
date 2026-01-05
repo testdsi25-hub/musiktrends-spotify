@@ -1,0 +1,8 @@
+pandas
+numpy
+plotly
+jupyter
+requests
+python-dotenv
+scikit-learn
+
