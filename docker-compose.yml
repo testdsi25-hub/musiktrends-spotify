@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  musik-app:
+    build: .
+    container_name: musik-app
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+
+# GIT BASH: Startbefehle
+## docker compose up --build
+## docker compose up

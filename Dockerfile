@@ -35,7 +35,3 @@ EXPOSE 8888
 # Startbefehl (Standard)
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", "--NotebookApp.token=''"]
 
-# GIT BASH
-# docker build -t musik-trends .
-# docker run -it- --rm -p 8888:8888 -v "/$(pwd):/app musik-trends"
-# STOP: Strg + C
