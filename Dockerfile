@@ -33,6 +33,6 @@ EXPOSE 8888
 
 # TODO Startbefehl anpassen? Kein Passwort (token) gesetzt für lokale Entwicklung
 # Startbefehl (Standard)
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", "--NotebookApp.token='', "--NotebookApp.password=''"]
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''"]
 
 
