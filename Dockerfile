@@ -26,12 +26,13 @@ COPY . .
 # Cache-Dateien im Container vermeiden (verhindert default .pyc Dateien)
 ENV PYTHONDONTWRITEBYTECODE=1
 # Logs sofort an das Terminal weiterleiten
-ENV PYTHTONUNBUFFERED=1
+ENV PYTHONUNBUFFERED=1
 
 # Jupyter Konfiguration
 EXPOSE 8888
 
 # TODO Startbefehl anpassen? Kein Passwort (token) gesetzt für lokale Entwicklung
 # Startbefehl (Standard)
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", "--NotebookApp.token=''"]
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", "--NotebookApp.token='', "--NotebookApp.password=''"]
+
 
