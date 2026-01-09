@@ -13,11 +13,13 @@
 ## 📌 Projektübersicht
 Dieses Projekt untersucht Musiknutzungstrends anhand von Spotify‑Daten. Dazu werden **Charts‑CSVs**, **Spotify Web API‑Metadaten**, **Feature Engineering**, **Forecast‑Modelle** und ein **Plotly‑Dashboard** kombiniert. Ziel ist ein vollständiges **End‑to‑End Data‑Science‑Portfolio‑Projekt**, das Daten, KI und Storytelling verbindet.
 
+💡 **Technical Note:** Aufgrund von API-Einschränkungen bei Spotify Ende 2024 (Einstellung des freien Zugriffs auf audio-features) wurde das Feature Engineering gezielt auf Artist-Metadaten und Genre-Trends umgestellt. Es hat sich gezeigt, dass Fanbase-Metriken (Follower) und Genre-Cluster stabilere Prädiktoren für Charterfolge sind als rein akustische Merkmale.
+
 ---
 
 ## 🚀 Features
 - Analyse von Spotify‑Charts (CSV‑Daten)
-- Abruf von Metadaten über die Spotify Web API (Genres, Popularität, Follower)
+- Abruf von Metadaten über die Spotify Web API (Fokus auf Artist-Metrics & Genres)
 - Feature Engineering (Genre Popularity Index, Artist Growth Rate, Seasonality Score)
 - Zeitreihen‑Forecasts (Prophet)
 - Klassifikation von „Rising Artists“ (Random Forest)
@@ -59,7 +61,7 @@ musiktrends-spotify/
 
 ### **Spotify Web API**
 - Künstler‑Metadaten  
-- Audio‑Features  
+- ~~ Audio‑Features ~~ (Ersetzt durch erweiterte Artist-Metriken, siehe Note oben)  
 - Popularität & Follower  
 - Genre‑Informationen  
 
