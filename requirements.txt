@@ -16,6 +16,7 @@ holidays
 cmdstanpy
 prophet
 lightgbm
+shap
 
 # Laden des Kaggle Datensatzes
 kagglehub
