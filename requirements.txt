@@ -15,6 +15,7 @@ scikit-learn
 holidays
 cmdstanpy
 prophet
+lightgbm
 
 # Laden des Kaggle Datensatzes
 kagglehub
