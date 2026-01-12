@@ -60,7 +60,11 @@ Die aktuelle Vorhersage zeigt eine Dominanz von Titeln mit einer Aufstiegswahrsc
 
 ## Fazit
 
-**Prophet liefert das „Spielfeld“ (Trend), während LightGBM mit einer Genauigkeit von 94 % im Markt-Kontext die „Stars von morgen“ identifiziert.**
+* **Prophet** liefert das „Spielfeld“ und sagt globale Markttrends mit einer Genauigkeit von 94 % (MAPE: 0,06) voraus.
+
+* **LightGBM** agiert als „Talentscout“ auf diesem Spielfeld: Durch den optimierten Threshold (0,36) identifiziert es 65 % aller tatsächlichen Rising Artists (Recall).
+
+&rarr; Die Kombination ermöglicht es, individuelle Künstler-Erfolge (Mikro-Ebene) immer im Kontext der allgemeinen Marktdynamik (Makro-Ebene) zu bewerten.
 
 
 
