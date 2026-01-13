@@ -1,18 +1,32 @@
 version: '3.8'
 
 services:
-  musik-app:
-    build: 
+
+  dashboard:
+    build:
       context: .
       dockerfile: Dockerfile
-    container_name: musik-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    env_file: .env
+    command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+
+  notebook:
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "8888:8888"
     volumes:
       - .:/app
-    environment:
-      - PYTHONUNBUFFERED=1
-
-# GIT BASH: Startbefehle
-## docker compose up --build
-## docker compose up
+    env_file: .env
+    command: >
+      jupyter notebook
+      --ip=0.0.0.0
+      --port=8888
+      --no-browser
+      --allow-root
+      --NotebookApp.token=''
+      --NotebookApp.password=''

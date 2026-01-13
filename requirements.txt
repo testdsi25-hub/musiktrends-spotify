@@ -9,6 +9,7 @@ seaborn
 
 # Interaktive Charts (Dashboard)
 plotly 
+streamlit
 
 # Machine Learning und Skalierung
 scikit-learn
@@ -17,10 +18,7 @@ cmdstanpy
 prophet
 lightgbm
 shap
-joblib
-
-# Laden des Kaggle Datensatzes
-kagglehub
+wheel
 
 # API & Hilfsmittel
 spotipy

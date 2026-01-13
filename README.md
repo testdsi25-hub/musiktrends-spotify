@@ -34,14 +34,15 @@ Dieses Projekt untersucht Musiknutzungstrends anhand von Spotify‑Daten. Dazu w
 musiktrends-spotify/
 │
 ├── data/          # Rohdaten, CSVs, API-Downloads (aktuell noch nicht verfügbar)
+├── docs/          # Dokumentation, Diagramme, Berichte
+├── models/        # Modelle (Prophet, LightGBM)
 ├── notebooks/     # Jupyter Notebooks für Exploration & Modellierung
 ├── src/           # Python-Module (Pipelines, Modelle, Utils)
-├── docs/          # Dokumentation, Diagramme, Berichte
-├── requirements.txt
+├── docker-compose.yml
 ├── Dockerfile
-└── docker-compose.yml
-└── LICENSE
-└── README.md
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
 ---

@@ -6,6 +6,10 @@ FROM python:3.11-slim
 RUN apt-get update && apt-get install -y \
     # Metapaket für Software
     build-essential \
+    # zwingend für LightGBM erforderlich
+    g++ \
+    libgomp1 \
+    libstdc++6 \
     # Container prüft, ob eine Internetverbindung besteht
     curl \
     # hält das Image klein: rm (remove), -r(ecursive)f(orce)
@@ -28,11 +32,13 @@ ENV PYTHONDONTWRITEBYTECODE=1
 # Logs sofort an das Terminal weiterleiten
 ENV PYTHONUNBUFFERED=1
 
-# Jupyter Konfiguration
+# Ports freigeben
+# 8888 für Jupyter, 8501 für Streamlit Dashboard
 EXPOSE 8888
+EXPOSE 8501
 
-# TODO Startbefehl anpassen? Kein Passwort (token) gesetzt für lokale Entwicklung
-# Startbefehl (Standard)
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''"]
+# Flexibler Startbefehl 
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
 
 
