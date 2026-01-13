@@ -13,20 +13,22 @@ from .spotify_utils import (
 
 load_dotenv()
 
-# ____ HILFSFUNKTION: TRACK-ID AUS URI EXTRAHIEREN ____
 
 def extract_track_id(uri: str):
-    """
-    Extrahiert die Spotify Track-ID aus einer URI wie:
-    spotify:track:3rUGC1vUpkDG9CZFHMur1t
-    """
+    """Extrahiert die Spotify Track-ID aus einer URI wie spotify:track:XYZ."""
     if isinstance(uri, str) and uri.startswith("spotify:track:"):
         return uri.split("spotify:track:")[1]
     return None
 
-# ____ SPOTIFY-CLIENT ____
 
 class SpotifyClient:
+    """
+    Sauberer, robuster Spotify-Client:
+    - track_id aus URI oder Suche
+    - artist_id IMMER aus API (nie auslassen)
+    - Enrichment in Batches
+    """
+
     def __init__(self):
         self.client_id = os.getenv("SPOTIFY_CLIENT_ID")
         self.client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
@@ -36,7 +38,9 @@ class SpotifyClient:
         self._validate_env()
         self.authenticate()
 
-    # ____ AUTHENTIFIZIERUNG ____
+    # ---------------------------------------------------------
+    # AUTHENTIFIZIERUNG
+    # ---------------------------------------------------------
     def _validate_env(self):
         missing = [
             key for key in ["SPOTIFY_CLIENT_ID", "SPOTIFY_CLIENT_SECRET", "SPOTIFY_REFRESH_TOKEN"]
@@ -46,9 +50,7 @@ class SpotifyClient:
             raise ValueError(f"Fehlende Umgebungsvariablen: {missing}")
 
     def authenticate(self):
-        """
-        Holt einen frischen Access Token über den Refresh Token.
-        """
+        """Holt einen frischen Access Token über den Refresh Token."""
         self.access_token = refresh_access_token(
             self.refresh_token,
             self.client_id,
@@ -60,19 +62,21 @@ class SpotifyClient:
 
         print("Spotify-Authentifizierung erfolgreich.")
 
-    # ____ IDs FÜR TRACKS BESTIMMEN ____
+    # ---------------------------------------------------------
+    # TRACK-ID + ARTIST-ID ERMITTELN
+    # ---------------------------------------------------------
     def get_ids_for_tracks(self, df):
         """
-        Liefert track_id und artist_id.
-        Nutzt primär die URI, nur wenn nötig die Suchfunktion.
+        Liefert track_id und artist_id für jeden Track.
+        Notebook-kompatibel: Jede Zeile bekommt beide IDs.
         """
         df = df.copy()
 
-        # track_id aus URI extrahieren
+        # 1. track_id aus URI extrahieren
         if "uri" in df.columns:
             df["track_id"] = df["uri"].apply(extract_track_id)
 
-        # Fallback: Suche per Name/Artist
+        # 2. Fallback: Suche per Name/Artist
         missing_mask = df["track_id"].isna()
 
         if missing_mask.any():
@@ -90,13 +94,23 @@ class SpotifyClient:
                 ids.tolist(), index=df[missing_mask].index
             )
 
-        # Artist-ID aus Track-API holen (falls noch nicht vorhanden)
+        # 3. Artist-ID IMMER nachladen (Notebook-Verhalten)
         df = self._fill_missing_artist_ids(df)
+
+        # 4. Sicherstellen, dass beide Spalten existieren
+        if "artist_id" not in df.columns:
+            df["artist_id"] = None
 
         return df.dropna(subset=["track_id", "artist_id"])
 
-    # ____ ARTIST-ID AUS TRACK-API HOLEN ____
+    # ---------------------------------------------------------
+    # ARTIST-ID AUS TRACK-API HOLEN
+    # ---------------------------------------------------------
     def _fill_missing_artist_ids(self, df):
+        """Holt artist_id für alle Zeilen, die eine track_id aber keine artist_id haben."""
+        if "artist_id" not in df.columns:
+            df["artist_id"] = None
+
         missing = df["artist_id"].isna()
 
         if not missing.any():
@@ -105,18 +119,24 @@ class SpotifyClient:
         print(f"Ermittle Artist-IDs für {missing.sum()} Tracks...")
 
         track_ids = df.loc[missing, "track_id"].tolist()
-        tracks = get_tracks_batch(track_ids, self.access_token)
 
+        # Batch-weise abfragen
+        batches = [track_ids[i:i+50] for i in range(0, len(track_ids), 50)]
         id_map = {}
-        for t in tracks:
-            if t and "id" in t:
-                artist_id = t["artists"][0]["id"] if t.get("artists") else None
-                id_map[t["id"]] = artist_id
+
+        for batch in batches:
+            tracks = get_tracks_batch(batch, self.access_token)
+            for t in tracks:
+                if t and "id" in t:
+                    artist_id = t["artists"][0]["id"]
+                    id_map[t["id"]] = artist_id
 
         df.loc[missing, "artist_id"] = df.loc[missing, "track_id"].map(id_map)
         return df
 
-    # ____ ENRICHMENT: TRACK- & ARTIST-METADATEN ____
+    # ---------------------------------------------------------
+    # ENRICHMENT
+    # ---------------------------------------------------------
     def enrich_data(self, df_with_ids, batch_size=50, sleep_time=0.3):
         """
         Holt Track- und Artist-Metadaten in Batches.
