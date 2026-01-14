@@ -1,5 +1,6 @@
 import pandas as pd
 import ast
+import streamlit as st
 
 # ____ GENRE PARSER ____
 def genre_parser(val):
@@ -29,11 +30,11 @@ def genre_parser(val):
 
 # ____ FEATURE ENGINEERING PIPELINE ____
 
+@st.cache_data
 def build_features(df):
     """
     Berechnet alle Features, die das LightGBM-Modell benötigt.
-    Nutzt Streams voll aus.
-    Funktioniert für historische Daten + neue Wochen.
+    Funktioniert für historische Daten und neue Wochen.
     """
     df = df.copy()
 

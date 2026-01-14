@@ -3,6 +3,7 @@ import pandas as pd
 from prophet.serialize import model_from_json
 import lightgbm as lgb
 import os
+import streamlit as st
 
 MODEL_DIR = "models/"
 
@@ -14,7 +15,7 @@ _lgbm_model = None
 _best_t = None
 _feature_cols = None
 
-
+@st.cache_resource
 def load_artefacts(model_dir=MODEL_DIR):
     """Lädt Prophet, LightGBM, Threshold und Feature-Liste."""
     global _prophet_model, _lgbm_model, _best_t, _feature_cols
@@ -45,6 +46,7 @@ def load_artefacts(model_dir=MODEL_DIR):
 
 # ____ PREDICTION PIPELINE ____ 
 
+@st.cache_data
 def run_prediction_pipeline(df):
     """
     df: DataFrame mit Features + Spalte 'ds'
