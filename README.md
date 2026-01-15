@@ -5,7 +5,7 @@
 
 ## 📅 Roadmap (Aktueller Stand des Projekts)
 - [x] Woche 1: CSV‑Daten + Exploration  
-- [ ] Woche 2: API‑Daten + Modellierung  
+- [x] Woche 2: API‑Daten + Modellierung  
 - [ ] Woche 3: Dashboard + Storytelling
 
 ---
@@ -24,7 +24,7 @@ Dieses Projekt untersucht Musiknutzungstrends anhand von Spotify‑Daten. Dazu w
 - Zeitreihen‑Forecasts (Prophet)
 - Klassifikation von „Rising Artists“ (LightGBM)
 - Interaktives Dashboard (Streamlit)
-- Automatisch generierte Trendberichte (LLM‑Integration)
+- Automatisch generierte Trendberichte (LLM‑Integration über Gemini-API)
 - Vollständig reproduzierbar via Docker
 
 ---
@@ -95,6 +95,17 @@ Dieses Projekt nutzt Docker, um eine konsistente Entwicklungsumgebung bereitzust
 
 * [Docker Desktop](https://www.docker.com/products/docker-desktop/) installiert und gestartet.
 * Eine `.env`-Datei im Hauptverzeichnis mit deinen API-Credentials (siehe `.env.example`).
+
+### 🔐 Beispiel `.env.example`
+
+```env
+# Spotify API Credentials
+SPOTIFY_CLIENT_ID=your_spotify_client_id
+SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+
+# Google Gemini API Key
+GOOGLE_API_KEY=your_gemini_api_key
+```
 
 ### Container bauen & starten
 
