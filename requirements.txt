@@ -25,6 +25,6 @@ spotipy
 python-dotenv
 requests
 tqdm
-google-generativeai
+google-genai
 # Entwicklung
 jupyter 

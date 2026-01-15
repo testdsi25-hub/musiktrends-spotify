@@ -23,7 +23,7 @@ def generate_gemini_report(df_display, top_10):
     # Daten-Aggregation für den Prompt
     if "artist_genres" in df_display.columns:
         df_genres = df_display.copy()
-         df_genres["artist_genres"] = df_genres["artist_genres"].apply( 
+        df_genres["artist_genres"] = df_genres["artist_genres"].apply( 
              lambda x: x if isinstance(x, list) else [str(x)] if pd.notna(x) else ["unknown"] 
          )
         df_genres = df_genres.explode("artist_genres")
@@ -53,7 +53,7 @@ def generate_gemini_report(df_display, top_10):
 
     🎧 **Top Genres:** {', '.join(top_genres)}
     ⭐ **Top Artist:** {top_artist} – Song: '{top_song}'
-    📈 **Anzahl Rising Artists (>70% Wahrscheinlichkeit):** {rising_count}
+    📈 **Anzahl Rising Artists (>90% Wahrscheinlichkeit):** {rising_count}
     📊 **Datenbasis:** {len(df_display)} Tracks
 
     Schreibe einen kurzen, prägnanten Bericht auf Deutsch.
@@ -62,7 +62,7 @@ def generate_gemini_report(df_display, top_10):
 
     # Anfrage an Gemini
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-1.5-flash-latest')
         response = model.generate_content(prompt)
         return response.text or "Fehler: Leere Antwort von Gemini."
     except Exception as e:
