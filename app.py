@@ -1,14 +1,34 @@
 import os
+import ast
+from pathlib import Path
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+import plotly.graph_objects as go
+import time
+import math
 
+# ____ Pipeline-Module _____
 from src.extraction_unique_entities import prepare_unique_tracks
 from src.spotify_client import SpotifyClient
 from src.merge_dataframes import merge_new_data
-from src.features import build_features, generate_trend_report
+from src.features import build_features, genre_parser
 from src.predict_pipeline import run_prediction_pipeline
+from src.trend_reports import generate_gemini_report
 
+# ------------------------------------------------------------ 
+# Basisverzeichnisse 
+# ------------------------------------------------------------ 
+BASE_DIR = Path(__file__).resolve().parent 
+DATA_DIR = BASE_DIR / "data" 
+RAW_DIR = DATA_DIR / "raw" 
+INTERIM_DIR = DATA_DIR / "interim" 
+PROCESSED_DIR = DATA_DIR / "processed" 
+BACKUP_DIR = DATA_DIR / "backups" 
+MODEL_DIR = BASE_DIR / "models" 
+
+for d in [RAW_DIR, INTERIM_DIR, BACKUP_DIR]: 
+    d.mkdir(parents=True, exist_ok=True)
 
 # ------------------------------------------------------------
 # Seiteneinstellungen
@@ -29,11 +49,7 @@ MODEL_FILES = {
     "Feature Columns": "models/rising_artist_features.json"
 }
 
-def check_models():
-    missing = [name for name, path in MODEL_FILES.items() if not os.path.exists(path)]
-    return missing
-
-missing_models = check_models()
+missing_models = [name for name, path in MODEL_FILES.items() if not Path(path).exists()]
 
 # ------------------------------------------------------------
 # UI Header
@@ -70,16 +86,13 @@ if uploaded_file is None:
 # ------------------------------------------------------------ 
 # Datei speichern 
 # ------------------------------------------------------------
-RAW_DIR = "data/raw"
-os.makedirs(RAW_DIR, exist_ok=True)
-
-temp_path = f"{RAW_DIR}/{uploaded_file.name}"
+temp_path = RAW_DIR / uploaded_file.name
 
 with open(temp_path, "wb") as f:
     f.write(uploaded_file.getbuffer())
 
 st.success(f"Datei wurde erfolgreich hochgeladen.")
-st.caption(f"Speicherort: {temp_path}")
+st.caption(f"Speicherort: `{temp_path}`")
 
 # ------------------------------------------------------------ 
 # Schritt 1: Unique Tracks extrahieren 
@@ -89,7 +102,7 @@ st.subheader("🔍 Titel & Künstler automatisch erkennen")
 unique_path, date_str = prepare_unique_tracks(temp_path)
 
 st.success(f"Titel und Künstler wurden erkannt und gespeichert.")
-st.caption(f"Speicherort: {unique_path}")
+st.caption(f"Speicherort: `{unique_path}`")
 
 # ---------------------------------------------------------------- 
 # Schritt 2: Spotify Enrichment Pipeline mit anschließendem Merge 
@@ -103,16 +116,16 @@ if st.button("🎧 Spotify-Infos laden"):
         df_enriched = client.run_full_pipeline(
             unique_tracks_csv=unique_path,
             date_str=date_str,
-            output_dir="data/interim"
+            output_dir=INTERIM_DIR
         )
     st.success("Die Titel wurden erfolgreich mit Spotify-Infos angereichert.")
 
     df_final = merge_new_data(
-        ids_csv=f"data/interim/unique_tracks_with_ids_{date_str}.csv",
-        enriched_csv=f"data/interim/enriched_data_{date_str}.csv",
-        hist_path="data/processed/final_data_with_metadata.csv",
-        output_path=f"data/interim/merged_enriched_{date_str}.csv",
-        backup_dir="data/backups",
+        ids_csv=INTERIM_DIR / f"unique_tracks_with_ids_{date_str}.csv",
+        enriched_csv=INTERIM_DIR / f"enriched_data_{date_str}.csv",
+        hist_path= PROCESSED_DIR / "final_data_with_metadata.csv",
+        output_path=INTERIM_DIR / f"merged_enriched_{date_str}.csv",
+        backup_dir=BACKUP_DIR,
         cleanup_days=180
     )
 
@@ -124,7 +137,7 @@ if st.button("🎧 Spotify-Infos laden"):
     # -------------------------------------------------------- 
     # Schritt 3: Feature Engineering 
     # -------------------------------------------------------- 
-    st.header("🧠 2. Daten verarbeiten")
+    st.header("🧠 Daten verarbeiten")
     st.subheader("🧩 Merkmale berechnen") 
     
     df_features = build_features(df_final) 
@@ -141,70 +154,198 @@ if st.button("🎧 Spotify-Infos laden"):
     
     df_features["is_rising"] = preds 
     df_features["probability"] = probs 
+
+    st.session_state["df_features"] = df_features
     
     st.success("Die KI-Vorhersagen sind bereit.")
 
-    # -------------------------------------------------------- 
-    # Schritt 5: TOP‑10 Rising Artists 
-    # -------------------------------------------------------- 
-    st.header("📊 3. Ergebnisse entdecken")
-    st.subheader("🚀 Vorhergesagte TOP 10 aufstrebende Künstler der nächsten Woche") 
-    
-    df_top10 = df_features.sort_values("probability", ascending=False).head(10) 
-    
-    st.dataframe(df_top10[[ 
-        "artist_names", "track_name", "probability", 
-        "track_popularity", "artist_followers", "genre_pop_idx" 
-    ]])
+# ------------------------------------------------------------ 
+# Dashboard (Visualisierungen)
+# ------------------------------------------------------------
+st.header("📊 Analyse & Visualisierung")
 
-    # -------------------------------------------------------- 
-    # Dashboard-Bereich 
-    # -------------------------------------------------------- 
-    st.subheader("📊 Überblick & Entwicklungen") 
-    
-    col1, col2, col3 = st.columns(3) 
-    with col1: 
-        st.metric("Anzahl Tracks", len(df_features)) 
-    with col2: 
-        st.metric("Identifizierte Rising Artists", int(df_features["is_rising"].sum())) 
-    with col3: 
-        st.metric( 
-            "Max. Rising-Wahrscheinlichkeit", 
-            f"{df_features['probability'].max():.2f}" if len(df_features) > 0 else "–" 
-        ) 
-    # Plot: Top 10 Rising Artists 
-    if df_top10.empty: 
-        st.warning("Keine Rising Artists mit positiver Vorhersage gefunden.") 
-    else: 
-        st.markdown("### 🎤 Top 10 – Modellwahrscheinlichkeiten") 
-        
-        fig = px.bar( 
-            df_top10, 
-            x="probability", 
-            y="track_name", 
-            color="artist_names", 
-            orientation="h", 
-            title="Top 10 Rising Artists (Modellwahrscheinlichkeiten)", 
-            labels={ 
-                "probability": "Wahrscheinlichkeit", 
-                "track_name": "Track", 
-                "artist_names": "Artist" 
-            } 
-        ) 
-        
-        fig.update_layout( 
-            yaxis={"categoryorder": "total ascending"}, 
-            template="plotly_dark" 
-        ) 
-        
-        st.plotly_chart(fig, use_container_width=True) 
+if "df_features" not in st.session_state:
+    st.info("Bitte lade zuerst Spotify-Infos und starte die KI-Vorhersage.")
+    st.stop()
 
-    # -------------------------------------------------------- 
-    # Schritt 6: Trendbericht
-    # -------------------------------------------------------- 
-    st.subheader("📝 Trendbericht") 
+df_display = st.session_state["df_features"].copy()
+
+# KPI-Bereich
+col1, col2, col3 = st.columns(3)
+col1.metric("Analysierte Tracks", f"{len(df_display):,}")
+col2.metric("Rising Artists", (df_display['probability'] >= 0.9).sum())
+col3.metric("Max. Wahrscheinlichkeit", f"{df_display['probability'].max():.2%}")
+
+st.divider()
+
+# Heatmap 
+if "artist_genres" in df_display.columns:
+    st.subheader("🔥 Genre Trend Heatmap")
+
+    # Kopie für die Heatmap erstellen, um df_display nicht für andere Charts zu verändern
+    df_heatmap = df_display.copy()
     
-    for _, row in df_top10.iterrows(): 
-        report = generate_trend_report(row) 
-        st.markdown(report) 
-        st.markdown("---") 
+    # Sicherstellen, dass Genres Listen sind (falls sie als Strings gespeichert wurden)
+    df_heatmap["artist_genres"] = df_heatmap["artist_genres"].apply(genre_parser)
+    
+    # Explode: Erstellt pro Genre eine eigene Zeile
+    df_heatmap = df_heatmap.explode("artist_genres")
+
+    # Ungültige Genres entfernen
+    df_heatmap = df_heatmap.dropna(subset=["artist_genres"])
+    df_heatmap = df_heatmap[df_heatmap["artist_genres"] != ""]
+    
+    # Aggregation: Durchschnittliche Wahrscheinlichkeit pro Woche und Genre
+    genre_trend = (
+        df_heatmap.groupby(["ds", "artist_genres"])["probability"]
+        .mean()
+        .reset_index()
+        .sort_values("ds")
+    )
+
+    # Nur Top-Genres anzeigen (optional, verhindert eine zu lange Y-Achse)
+    top_genres = (
+        genre_trend.groupby("artist_genres")["probability"]
+        .sum()
+        .nlargest(20)
+        .index
+    )
+    genre_trend = genre_trend[genre_trend["artist_genres"].isin(top_genres)]
+
+    # Heatmap erzeugen
+    fig_heatmap = px.density_heatmap(
+        genre_trend, 
+        x="ds",
+        y="artist_genres",
+        z="probability",
+        color_continuous_scale="Viridis",
+        labels={
+            'probability': 'Trend-Stärke', 
+            'artist_genres': 'Genre',
+            'ds': 'Datum'
+        },
+        title="Genre-Momentum über die Zeit"
+    )
+
+    fig_heatmap.update_coloraxes(colorbar_title="Kumulierte Trendstärke")
+
+    st.plotly_chart(fig_heatmap, use_container_width=True)
+
+# TOP 10 Rising Artists
+st.subheader("🏆 Top 10 Rising Artists")
+
+df_display_unique = (
+    df_display.sort_values("probability", ascending=False)
+        .drop_duplicates(subset=["artist_names", "track_name"])
+)
+
+top_10 = df_display_unique.nlargest(10, "probability")
+
+fig_bar = px.bar(
+    top_10,
+    x="probability",
+    y="track_name",
+    color="artist_names",
+    orientation="h",
+    range_x=[0, 1],
+    labels={
+        'track_name': 'Song',
+        'probability': 'Wahrscheinlichkeit',
+        'artist_names': 'Künstler'
+    },
+    title="Top 10 Wahrscheinlichkeiten"
+)
+
+fig_bar.update_yaxes(autorange="reversed")
+
+st.plotly_chart(fig_bar, use_container_width=True)
+
+# Forecast
+st.subheader("📈 Song-spezifischer Forecast")
+
+selected_artist = st.selectbox("Künstler wählen:", df_display["artist_names"].unique())
+selected_song = st. selectbox(
+    "Song wählen:",
+    df_display[df_display["artist_names"] == selected_artist]["track_name"].unique()
+)
+
+song_data = df_display[
+    (df_display["artist_names"] == selected_artist) &
+    (df_display["track_name"] == selected_song)
+    ].sort_values("ds")
+
+if not song_data.empty:
+    from plotly.subplots import make_subplots
+    
+    # Erstelle Subplot mit zweiter Y-Achse
+    fig_line = make_subplots(specs=[[{"secondary_y": True}]])
+
+    # 1. Historische Streams (Haupt-Achse)
+    if "streams" in song_data.columns and not song_data["streams"].isna().all():
+        fig_line.add_trace(
+            go.Scatter(
+                x=song_data["ds"], 
+                y=song_data["streams"], 
+                name="Streams", 
+                mode="lines+markers"
+            ),
+            secondary_y=False
+        )
+    
+    # 2. Vorhersage-Wahrscheinlichkeit (Zweite Achse rechts)
+    fig_line.add_trace(
+        go.Scatter(
+            x=song_data["ds"], 
+            y=song_data["probability"], 
+            name="KI-Wahrscheinlichkeit", 
+            mode="lines+markers",
+            line=dict(dash='dash', color='orange')
+        ),
+        secondary_y=True
+    )
+    
+    fig_line.update_layout(
+        title=f"Trend-Analyse: {selected_song}",
+        yaxis=dict(title="Anzahl Streams"), 
+        yaxis2=dict(title="Rising Probability (0-1)", range=[0, 1])
+    )
+    
+    st.plotly_chart(fig_line, use_container_width=True)
+
+# Tabelle
+st.subheader("📋 Detaildaten") 
+
+df_show = top_10[["artist_names", "track_name", "probability"]].rename(columns={
+    "artist_names": "Künstler",
+    "track_name": "Song",
+    "probability": "Wahrscheinlichkeit"
+})
+
+st.dataframe(df_show)
+
+# ------------------------------------------------------------ 
+# Automatisierter Trendbericht
+# ------------------------------------------------------------
+
+# Session State initialisieren
+if "last_ai_call" not in st.session_state:
+    st.session_state.last_ai_call = 0
+
+COOLDOWN_SECONDS = 60
+
+if st.button("🪄 Analyse-Bericht generieren"):
+    current_time = time.time()
+    elapsed = current_time - st.session_state.last_ai_call
+
+    if elapsed < COOLDOWN_SECONDS:
+        remaining = math.ceil(COOLDOWN_SECONDS - elapsed)
+        st.warning(f"Bitte warte noch {remaining} Sekunden.")
+    else:
+        with st.spinner("Gemini analysiert..."):
+            report = generate_gemini_report(df_display, top_10)
+            st.session_state.last_ai_call = current_time
+
+            if report:
+                st.markdown(report)
+            else:
+                st.error("Der Bericht konnte nicht generiert werden.")

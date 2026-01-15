@@ -43,6 +43,15 @@ def merge_new_data(
     backup_dir.mkdir(parents=True, exist_ok=True)
     
     # ____ 1. Backup des historischen Datensatzes erstellen ____ 
+
+    # Prüfen, ob bereits ein Backup mit heutigem Datum besteht und ggf. löschen (pro Tag nur 1 Datei!)
+    today_str = datetime.now().strftime("%Y-%m-%d")
+
+    for file in backup_dir.glob(f"{hist_path.stem}_backup_{today_str}_*.csv"):
+        file.unlink()
+        print(f"Altes Backup für heute gelöscht: {file}")
+        
+    # Backup erstellen
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") 
     backup_path = backup_dir / f"{hist_path.stem}_backup_{timestamp}.csv" 
     shutil.copy(hist_path, backup_path)
@@ -68,6 +77,18 @@ def merge_new_data(
         how="inner"
     )
 
+    # Unnötige Spalten entfernen
+    columns_to_keep = [
+    "chart_week", "rank", "artist_names", "track_name",
+    "peak_rank", "previous_rank", "weeks_on_chart",
+    "streams", "track_id", "artist_id", "release_date",
+    "explicit", "track_popularity", "artist_genres",
+    "artist_followers", "artist_popularity"
+    ]
+    
+    df_merged = df_merged[[c for c in columns_to_keep if c in df_merged.columns]]
+
+    
     # ____ 5. Historische Daten laden ____
     df_hist = pd.read_csv(hist_path)
 
