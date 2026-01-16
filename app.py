@@ -123,7 +123,6 @@ if st.button("🎧 Spotify-Infos laden"):
             output_dir=INTERIM_DIR
         )
     st.success("Die Titel wurden erfolgreich mit Spotify-Infos angereichert.")
-    st.dataframe(df_enriched.head()) 
 
     # ------------------------------------------------------------ 
     # Schritt 3: Merge: Charts + enriched_data + Historie 
@@ -141,7 +140,7 @@ if st.button("🎧 Spotify-Infos laden"):
     st.success("Die neuen Daten wurden erfolgreich mit der Historie verbunden.")
     
     st.write("Vorschau der angereicherten Daten:")
-    st.dataframe(df_final.head())
+    st.dataframe(df_final.tail())
     
     # -------------------------------------------------------- 
     # Schritt 4: Feature Engineering 

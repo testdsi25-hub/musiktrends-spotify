@@ -46,10 +46,10 @@ def merge_new_data(
 
     # ____ Bereinigung ____
     df_final = df_final.drop(columns=[c for c in ["uri", "track_name_api"] if c in df_final.columns])
-    
+
     df_final["chart_week"] = pd.to_datetime(df_final["chart_week"], errors="coerce")
     df_final["release_date"] = pd.to_datetime(df_final["release_date"], errors="coerce")
-
+    
     df_final["artist_genres"] = df_final["artist_genres"].fillna("unknown")
 
     # ____ data_week_YYYY-MM-DD.csv speichern ____
@@ -65,7 +65,15 @@ def merge_new_data(
         df_all = df_final.copy()
 
     df_all = df_all.drop_duplicates(subset=["chart_week", "track_id"], keep="last") 
+
+    # ____ Datumsfelder sicher in datetime umwandeln ____ 
+    df_all["chart_week"] = pd.to_datetime(df_all["chart_week"], errors="coerce") 
+    df_all["release_date"] = pd.to_datetime(df_all["release_date"], errors="coerce")
+
     df_all = df_all.sort_values(by=["chart_week", "track_id"]).reset_index(drop=True) 
+    
+    df_all["chart_week"] = df_all["chart_week"].dt.strftime("%Y-%m-%d")
+    df_all["release_date"] = df_all["release_date"].dt.strftime("%Y-%m-%d")
     
     # Speichern der aktualisierten Historie 
     hist_updated_path = processed_dir / "hist_data_updated.csv" 
