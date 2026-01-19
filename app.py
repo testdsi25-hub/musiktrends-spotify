@@ -87,37 +87,32 @@ if uploaded_file is None:
 # Datei speichern 
 # ------------------------------------------------------------
 # Dateiname für raw_ "_origin" anhängen
-origin_name = f"{uploaded_file.stem}_origin{uploaded_file.suffix}"
+file_path_raw = Path(uploaded_file.name)
+origin_name = f"{file_path_raw.stem}_origin{file_path_raw.suffix}"
 
 # Ursprungsdatei ohne Änderung in raw
-raw_path / origin_name
+raw_path = RAW_DIR / origin_name
 
 with open(raw_path, "wb") as f: 
     f.write(uploaded_file.getbuffer())
 
-# Zur Weiterverarbeitung in interim
-temp_path = INTERIM_DIR / uploaded_file.name
-
-with open(temp_path, "wb") as f:
-    f.write(uploaded_file.getbuffer())
-
 st.success(f"Datei wurde erfolgreich hochgeladen.")
 st.caption(f"Speicherort der Originaldatei: `{raw_path}`")
-st.caption(f"Speicherort für Weiterverarbeitung: `{temp_path}`")
 
 # ------------------------------------------------------------ 
 # Schritt 1: Unique Tracks extrahieren 
 # ------------------------------------------------------------
 st.subheader("🔍 Titel & Künstler automatisch erkennen")
 
-unique_path, date_str = prepare_unique_tracks(
-    input_path=temp_path, 
+processed_path, unique_path, date_str = prepare_unique_tracks(
+    input_path=raw_path, 
     processed_dir=PROCESSED_DIR, 
     output_dir=INTERIM_DIR
 )
 
 st.success(f"Titel und Künstler wurden erkannt und gespeichert.")
-st.caption(f"Speicherort: `{unique_path}`")
+st.caption(f"Verarbeitete Datei gespeichert unter: `{processed_path}`") 
+st.caption(f"Unique-Track-Datei gespeichert unter: `{unique_path}`")
 
 # ---------------------------------------------------------------- 
 # Schritt 2: Spotify Enrichment Pipeline mit anschließendem Merge 

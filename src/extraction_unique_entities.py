@@ -56,4 +56,4 @@ def prepare_unique_tracks(input_path: str, processed_dir: str, output_dir: str):
     df_unique.to_csv(output_path, index=False)
 
     print(f"Gespeichert unter: {output_path}")
-    return output_path, date_str
+    return processed_path, output_path, date_str
