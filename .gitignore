@@ -28,6 +28,9 @@ data/raw/**
 ## Erlaube aber die .gitkeep Dateien, damit die Ordner auf GitHub existieren
 !data/**/.gitkeep
 
+## Erlaube Ornder in data/raw, damit Ausnahmen greifen
+!data/raw/**/
+
 ## Erlaube explizit CSV-Dateien in allen Unterordnern
 !data/**/*.csv
 
