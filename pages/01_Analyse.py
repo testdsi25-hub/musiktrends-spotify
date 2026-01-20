@@ -18,7 +18,9 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📈 Analyse der globalen Streaming‑Mechaniken (2024–2025)")
+st.title("📈 Wie globale Streaming‑Peaks entstehen (2024–2025)")
+
+st.header("💥 Warum das Streaming explodiert und wann")
 st.markdown("""
 Diese Analyse zeigt die drei zentralen Marktmechaniken, die das globale 
 Streaming‑Volumen prägen. Anhand der aggregierten Spotify‑Charts (2024–2025) 
@@ -86,16 +88,62 @@ fig.add_annotation(
 
 fig.update_traces(line_color="#1DB954", line_width=2)
 
-# ------------------------------------------------------------
 # Plot anzeigen
-# ------------------------------------------------------------
 st.plotly_chart(fig, use_container_width=True)
+
+st.divider()
+
+# ------------------------------------------------------------
+# Peak-Wochen identifizieren
+# ------------------------------------------------------------
+
+# Durchschnitt und Standardabweichung der Streams berechnen
+mean_streams = seasonal_trends['streams'].mean()
+std_streams = seasonal_trends['streams'].std()
+
+# Threshold definieren: alles, was mehr als 1.5 Standardabweichungen über dem Durchschnitt liegt
+threshold = mean_streams + 1.5 * std_streams
+
+# Peak-Wochen identifizieren
+peaks = seasonal_trends[seasonal_trends['streams'] > threshold]
+
+# Liste der identifizierten Peak-Wochen erstellen
+peak_dates = peaks['chart_week'].tolist()
+
+# ------------------------------------------------------------
+# Visualisierung: Top 10 Künstler in den Peak-Wochen
+# ------------------------------------------------------------
+
+# Daten für die Peak-Wochen filtern
+peak_df_details = df[df['chart_week'].isin(peak_dates)]
+top_artists_peaks = peak_df_details[peak_df_details['rank'] <= 10]
+
+fig_peaks = px.bar(
+    top_artists_peaks,
+    x="chart_week",
+    y="streams",
+    color="artist_names",
+    title="Wer dominierte die Spitzenwochen im Streaming? (Top 10 Künstler)",
+    hover_data=["track_name"],
+    labels={
+        "streams": "Gesamt‑Streams",
+        "chart_week": "Woche",
+        "artist_names": "Künstler"
+    },
+    template="plotly_dark"
+)
+
+fig_peaks.update_traces(marker_line_color="black", marker_line_width=1) 
+
+fig_peaks.update_layout(barmode="stack")
+
+st.plotly_chart(fig_peaks, use_container_width=True)
 
 # ------------------------------------------------------------
 # Marktmechaniken erklären
 # ------------------------------------------------------------
 
-with st.expander("🔍 Die drei zentralen Marktmechaniken"):
+with st.expander("🔍 Die drei Kräfte hinter den Streaming-Peaks"):
 
     # 1. Superstar Releases
     st.subheader("1️⃣ Superstar‑Releases (Taylor Swift)")
@@ -163,7 +211,7 @@ st.markdown("---")
 # Abschnitt: Volumen vs. Vielfalt – Dominanz & Diversität
 # ------------------------------------------------------------
 
-st.header("🎤 Volumen vs. Vielfalt: Dynamik der Top‑Künstler")
+st.header("📊 Wie sich Marktvolumen und Künstlerbreite entwickeln")
 
 st.markdown("""
 Dieser Abschnitt untersucht, wie sich **Streaming‑Volumen** und 
@@ -254,10 +302,10 @@ fig_div.add_hline(
 st.plotly_chart(fig_div, use_container_width=True)
 
 # ------------------------------------------------------------
-# Interpretation der Marktmechaniken (ohne Wiederholungen)
+# Interpretation der Marktmechaniken
 # ------------------------------------------------------------
 
-with st.expander("🔍 Das Wechselspiel zwischen Volumen und Vielfalt"):
+with st.expander("🔍 Wie Dominanz und Vielfalt den Markt formen"):
 
     st.markdown("""
     Die beiden Grafiken zeigen, **wie unterschiedlich Marktpeaks entstehen** 
@@ -326,7 +374,7 @@ st.markdown("---")
 # Abschnitt: Nachhaltigkeit vs. Hype – Rolling Mean & Growth Dynamics
 # ------------------------------------------------------------
 
-st.header("📈 Nachhaltigkeit vs. Hype: Marktanteile & Wachstumstrends")
+st.header("📈 Marktanteile und Wachstum im Zeitverlauf")
 
 st.markdown("""
 Dieser Abschnitt untersucht, wie sich Marktanteile der führenden Künstler über die Zeit entwickeln
@@ -420,18 +468,18 @@ st.plotly_chart(fig_growth, use_container_width=True)
 # ------------------------------------------------------------
 # Interpretation (Expander)
 # ------------------------------------------------------------
-with st.expander("🔍 Nachhaltigkeit, Hype & Breakout‑Momente"):
+with st.expander("🔍 Nachhaltige Trends vs. Hype-Explosionen"):
     
     st.markdown("""
     ## 📌 Nachhaltigkeit vs. Hype (Rolling Mean)
 
     Der 4‑Wochen‑Rolling‑Mean glättet kurzfristige Schwankungen und legt die **echten Karrieretrends** offen:
 
-    **• Plateau‑Bildung:**  
+    **Plateau‑Bildung:**  
     Künstler mit stabilen Rolling‑Mean‑Kurven etablieren sich nachhaltig im Markt.  
     Ein kontinuierlicher Anstieg gefolgt von einer stabilen Phase deutet auf **dauerhafte Relevanz** hin.
 
-    **• Peak‑Verfall:**  
+    **Peak‑Verfall:**  
     Event‑getriebene Peaks fallen nach einem extremen Ausschlag schnell wieder ab.  
     Das ist typisch für **Superstar‑Releases**, die kurzfristig dominieren, aber nicht langfristig tragen.
     """)
@@ -441,11 +489,11 @@ with st.expander("🔍 Nachhaltigkeit, Hype & Breakout‑Momente"):
 
     Der Scatter‑Plot zeigt, wie unterschiedlich Künstler an Fahrt gewinnen:
 
-    **• Virale Explosionen:**  
+    **Virale Explosionen:**  
     Extreme Wachstums‑Ausreißer über 500% bis 1.000% innerhalb einer Woche markieren **keine organischen Trends**,   
     sondern globale Events, Releases oder virale Momente (&rarr; Taylor Swift im April 2024 oder Oktober 2025).
 
-    **• Volumen vs. Geschwindigkeit:**  
+    **Volumen vs. Geschwindigkeit:**  
     Etablierte Künstler (große Punkte) = hoher Marktanteil  
     Newcomer (kleine Punkte) = geringerer Marktanteil, aber oft **explosives Wachstum** 
     """)
