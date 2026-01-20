@@ -11,7 +11,7 @@ services:
     volumes:
       - .:/app
     env_file: .env
-    command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+    command: streamlit run Home.py --server.port=8501 --server.address=0.0.0.0
 
   notebook:
     build:
