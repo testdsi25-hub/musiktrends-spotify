@@ -38,6 +38,14 @@ musiktrends-spotify/
 ├── models/        # Modelle (Prophet, LightGBM)
 ├── notebooks/     # Jupyter Notebooks für Exploration & Modellierung
 ├── src/           # Python-Module (Pipelines, Modelle, Utils)
+│
+├── .gitignore
+├── .dockerignore
+├── .env	   # lokale Umgebungsvariablen (nicht im Repo)	
+├── .streamlit/
+│   └── config.toml
+│
+├── app.py
 ├── docker-compose.yml
 ├── Dockerfile
 ├── LICENSE
@@ -52,25 +60,34 @@ musiktrends-spotify/
 - Quelle: Spotify Weekly Top Songs Global (https://charts.spotify.com/charts/view/regional-global-weekly)
 - Zeitraum:  2024–2025
 - Frequenz: Weekly (TOP 200)
-- Felder: chart_week, rank,	uri, artist_names, track_name, peak_rank, previous_rank, weeks_on_chart, streams
+- Felder: 
+	- rank,	
+	- uri, 
+	- artist_names, 
+	- track_name, 
+	- source, 
+	- peak_rank, 
+	- previous_rank, 
+	- weeks_on_chart, 
+	- streams
 - Preprocessing:
     - Konsolidierung der Rohdaten: Alle wöchentlichen CSV-Dateien werden zu einer einzigen Tabelle zusammengeführt (Concatenation).
     - Standardisierung der Struktur: Spaltennamen werden vereinheitlicht, Datentypen harmonisiert und fehlende Werte behandelt.
-    - Feature-Selektion: Es werden nur die für die Analyse relevanten Spalten beibehalten, siehe Felder.
+    - Feature-Selektion: Es werden nur die für die Analyse relevanten Spalten beibehalten.
     - Bereinigung: Daten wurden auf Duplikate, fehlerhafte Einträge und nicht benötigte Metadaten geprüft.
     - Export: Speicherung der bereinigten Gesamttabelle unter "data/processed" als Grundlage für die weitere Analyse.
 
 ### **Spotify Web API**
-- Künstler‑Metadaten  
-- ~~ Audio‑Features ~~ (Ersetzt durch erweiterte Artist-Metriken, siehe Note oben)  
-- Popularität & Follower  
-- Genre‑Informationen  
+- Künstler-Metadaten
+- ~~ Audio‑Features ~~ (Ersetzt durch erweiterte Artist-Metriken, siehe Note oben)
+- Popularität & Follower
+- Genre-Informationen
 
 ---
 
 ## 🧠 Modellierung
 ### **Zeitreihen‑Forecasts**
-- Prophet  
+- Prophet
  
 ### **Klassifikation**
 - Random Forest (nur in der Entwicklungsumgebung)
@@ -80,10 +97,12 @@ musiktrends-spotify/
 
 ## 📊 Dashboard
 Das interaktive Dashboard zeigt:
-- Genre‑Heatmaps  
-- Forecast‑Kurven  
-- KPIs für „Rising Artists“  
-- Automatisch generierte Trendberichte  
+- Marktmechaniken
+- Volumen versus Diversität (Streams)
+- Genre-Heatmaps
+- Forecast-Kurven
+- KPIs für „Rising Artists“
+- Automatisch generierte Trendberichte
 
 ---
 
