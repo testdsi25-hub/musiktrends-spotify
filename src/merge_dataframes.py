@@ -7,7 +7,8 @@ def merge_new_data(
     enriched_csv: str,
     date_str: str, 
     processed_dir: Path,
-    hist_path: Path,
+    hist_raw_path: Path,
+    hist_updated_path: Path,
     backup_dir:Path
 ):
     """
@@ -36,7 +37,7 @@ def merge_new_data(
     )
 
     # ____ Merge über track_id ____
-    df_final = pd.merge(
+    df_week = pd.merge(
         df_charts,
         df_meta,
         on="track_id",
@@ -45,38 +46,42 @@ def merge_new_data(
     )
 
     # ____ Bereinigung ____
-    df_final = df_final.drop(columns=[c for c in ["uri", "track_name_api"] if c in df_final.columns])
+    df_week = df_week.drop(columns=[c for c in ["uri", "track_name_api"] if c in df_week.columns])
 
-    df_final["chart_week"] = pd.to_datetime(df_final["chart_week"], errors="coerce")
-    df_final["release_date"] = pd.to_datetime(df_final["release_date"], errors="coerce")
+    df_week["chart_week"] = pd.to_datetime(df_week["chart_week"], errors="coerce")
+    df_week["release_date"] = pd.to_datetime(df_week["release_date"], errors="coerce")
     
-    df_final["artist_genres"] = df_final["artist_genres"].fillna("unknown")
+    df_week["artist_genres"] = df_week["artist_genres"].fillna("unknown")
 
     # ____ data_week_YYYY-MM-DD.csv speichern ____
     weekly_path = processed_dir / f"data_week_{date_str}.csv"
-    df_final.to_csv(weekly_path, index=False)
+    df_week.to_csv(weekly_path, index=False)
 
     # ____ Historie aktualisieren und speichern ____
-    if hist_path.exists():
-        df_hist = pd.read_csv(hist_path)
-        df_all = pd.concat([df_hist, df_final], ignore_index=True)
+    if hist_updated_path.exists():
+        df_hist = pd.read_csv(hist_updated_path)
     else:
-        print("Keine historische Datei gefunden! Neue Historie wird erstellt.")
-        df_all = df_final.copy()
+        # Falls noch keine updated_Datei gibt, starte mit raw
+        df_hist = pd.read_csv(hist_raw_path)
+    
+    # Datumsfelder vereinheitlichen 
+    df_hist["chart_week"] = pd.to_datetime(df_hist["chart_week"], errors="coerce") 
+    df_hist["release_date"] = pd.to_datetime(df_hist["release_date"], errors="coerce")
 
+    # Neue Woche anhängen
+    df_all = pd.concat([df_hist, df_week], ignore_index=True)
+
+    # Deduplizieren
     df_all = df_all.drop_duplicates(subset=["chart_week", "track_id"], keep="last") 
 
-    # ____ Datumsfelder sicher in datetime umwandeln ____ 
-    df_all["chart_week"] = pd.to_datetime(df_all["chart_week"], errors="coerce") 
-    df_all["release_date"] = pd.to_datetime(df_all["release_date"], errors="coerce")
-
-    df_all = df_all.sort_values(by=["chart_week", "track_id"]).reset_index(drop=True) 
+    # Sortieren
+    df_all = df_all.sort_values(by=["chart_week", "track_id"]).reset_index(drop=True)
     
+    # Datumsformat zurück zu Strings
     df_all["chart_week"] = df_all["chart_week"].dt.strftime("%Y-%m-%d")
     df_all["release_date"] = df_all["release_date"].dt.strftime("%Y-%m-%d")
     
     # Speichern der aktualisierten Historie 
-    hist_updated_path = processed_dir / "hist_data_updated.csv" 
     df_all.to_csv(hist_updated_path, index=False)
 
     # ____ Backup erzeugen (max. ein Backup pro Tag) ____

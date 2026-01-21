@@ -140,7 +140,8 @@ if st.button("🎧 Spotify-Infos laden"):
         enriched_csv=INTERIM_DIR / f"enriched_data_{date_str}.csv", 
         date_str=date_str, 
         processed_dir=PROCESSED_DIR, 
-        hist_path=PROCESSED_DIR / "hist_data_24-25.csv", 
+        hist_raw_path=PROCESSED_DIR / "hist_data_24-25.csv", 
+        hist_updated_path=PROCESSED_DIR / "hist_data_updated.csv"
         backup_dir=BACKUP_DIR
     )
 
