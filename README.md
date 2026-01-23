@@ -123,6 +123,7 @@ Dieses Projekt nutzt Docker, um eine konsistente Entwicklungsumgebung bereitzust
 # Spotify API Credentials
 SPOTIFY_CLIENT_ID=your_spotify_client_id
 SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+SPOTIFY_REFRESH_TOKEN=your_spotify_refresh_token
 
 # Google Gemini API Key
 GOOGLE_API_KEY=your_gemini_api_key
