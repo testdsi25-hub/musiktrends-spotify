@@ -1,201 +1,201 @@
 chart_week,rank,artist_names,track_name,source,peak_rank,previous_rank,weeks_on_chart,streams,track_id,artist_id,release_date,explicit,track_popularity,artist_genres,artist_followers,artist_popularity
-2026-01-15,1,Djo,End of Beginning,Djo,1,1,100,57615296,3qhlB30KknSejmIvZZLjOD,5p9HO3XC5P3BLxJs5Mtrhm,2022-09-16,False,100.0,unknown,3926953.0,86.0
-2026-01-15,2,Taylor Swift,The Fate of Ophelia,Taylor Swift,1,2,15,44990874,53iuhJlwXhSER5J2IYYv1W,06HL4z0CvFAxyc27GXpf02,2025-10-03,False,99.0,unknown,150343698.0,100.0
-2026-01-15,3,Olivia Dean,Man I Need,PLG - Capitol,3,4,21,31719946,1qbmS6ep2hbBRaEZFpn7BX,00x1fYSGhdqScXBRpSj3DW,2025-08-15,False,97.0,pop soul,2724357.0,93.0
-2026-01-15,4,sombr,back to friends,Warner Records,1,5,43,31620313,7qjZnBKE73H4Oxkopwulqe,4G9NDjRyZFDlJKMRL8hx3S,2025-08-22,False,93.0,unknown,3537054.0,87.0
-2026-01-15,5,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,K-Pop Demon Hunters,1,3,30,31009336,1CPZ5BxNNd0n0nF4Orb9JS,2yNNYQBChuox9A5Ka93BIn,2025-06-20,False,98.0,unknown,4982223.0,86.0
-2026-01-15,6,Bruno Mars,I Just Might,Atlantic Records,6,-1,1,30951335,12bYYQaLqHliSXvRIYlq8G,0du5cEVh5yTK9QJze8zA0C,2026-01-09,False,92.0,unknown,78309743.0,95.0
-2026-01-15,7,RAYE,WHERE IS MY HUSBAND!,Human Re Sources,6,6,17,27947010,55lijDD6OAjLFFUHU9tcDm,5KKpBU5eC2tJDzf0wmlRp2,2025-09-19,False,96.0,unknown,3346105.0,85.0
-2026-01-15,8,Olivia Dean,So Easy (To Fall In Love),PLG - Capitol,6,7,16,26306045,6sGIMrtIzQjdzNndVxe397,00x1fYSGhdqScXBRpSj3DW,2025-09-26,False,96.0,pop soul,2724357.0,93.0
-2026-01-15,9,Zara Larsson,Lush Life,Epic/Record Company TEN,9,10,21,26245808,1rIKgCH4H52lrvDcz50hS8,1Xylc3o4UrD53lo9CvFvVg,2017-03-17,False,93.0,unknown,11452372.0,85.0
+2026-01-15,1,Djo,End of Beginning,Djo,1,1,100,57615296,3qhlB30KknSejmIvZZLjOD,5p9HO3XC5P3BLxJs5Mtrhm,2022-09-16,False,100.0,unknown,3945848.0,86.0
+2026-01-15,2,Taylor Swift,The Fate of Ophelia,Taylor Swift,1,2,15,44990874,53iuhJlwXhSER5J2IYYv1W,06HL4z0CvFAxyc27GXpf02,2025-10-03,False,99.0,unknown,150400359.0,100.0
+2026-01-15,3,Olivia Dean,Man I Need,PLG - Capitol,3,4,21,31719946,1qbmS6ep2hbBRaEZFpn7BX,00x1fYSGhdqScXBRpSj3DW,2025-08-15,False,97.0,pop soul,2735646.0,93.0
+2026-01-15,4,sombr,back to friends,Warner Records,1,5,43,31620313,7qjZnBKE73H4Oxkopwulqe,4G9NDjRyZFDlJKMRL8hx3S,2025-08-22,False,93.0,unknown,3544631.0,87.0
+2026-01-15,5,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,K-Pop Demon Hunters,1,3,30,31009336,1CPZ5BxNNd0n0nF4Orb9JS,2yNNYQBChuox9A5Ka93BIn,2025-06-20,False,97.0,unknown,4995160.0,86.0
+2026-01-15,6,Bruno Mars,I Just Might,Atlantic Records,6,-1,1,30951335,12bYYQaLqHliSXvRIYlq8G,0du5cEVh5yTK9QJze8zA0C,2026-01-09,False,93.0,unknown,78345629.0,95.0
+2026-01-15,7,RAYE,WHERE IS MY HUSBAND!,Human Re Sources,6,6,17,27947010,55lijDD6OAjLFFUHU9tcDm,5KKpBU5eC2tJDzf0wmlRp2,2025-09-19,False,96.0,unknown,3351676.0,85.0
+2026-01-15,8,Olivia Dean,So Easy (To Fall In Love),PLG - Capitol,6,7,16,26306045,6sGIMrtIzQjdzNndVxe397,00x1fYSGhdqScXBRpSj3DW,2025-09-26,False,96.0,pop soul,2735646.0,93.0
+2026-01-15,9,Zara Larsson,Lush Life,Epic/Record Company TEN,9,10,21,26245808,1rIKgCH4H52lrvDcz50hS8,1Xylc3o4UrD53lo9CvFvVg,2017-03-17,False,93.0,unknown,11462264.0,85.0
 2026-01-15,10,"Lady Gaga, Bruno Mars",Die With A Smile,Interscope Records,1,13,74,24159403,7so0lgd0zP2Sbgs2d7a1SZ,,,,,unknown,,
-2026-01-15,11,The Police,Every Breath You Take,Polydor Records,8,8,214,23980867,1JSTJqkT5qHq8MDJnJbRE1,5NGO30tJxFlKixkPSgXcFE,1983-06-17,False,95.0,unknown,7888511.0,81.0
-2026-01-15,12,Alex Warren,Ordinary,Atlantic Records,1,9,49,23653815,2RkZ5LkEzeHGRsmDqKwmaJ,0fTSzq9jAh4c36UVb4V7CB,2024-09-26,False,92.0,unknown,3472705.0,86.0
-2026-01-15,13,SIENNA SPIRO,Die On This Hill,Capitol Records,13,33,5,22389725,2gYTC8DsplN3RNdpdBcCOQ,02gSuSAWEdWa5UOvqzjX6v,2025-10-10,False,92.0,unknown,506221.0,79.0
-2026-01-15,14,She & Him,I Thought I Saw Your Face Today,Merge Records,14,14,6,21090409,0myRViRgmQ3J8izICXEAVO,3CIRif6ZAedT7kZSPvj2A4,2008-03-18,False,93.0,christmas,563769.0,76.0
-2026-01-15,15,Billie Eilish,BIRDS OF A FEATHER,Darkroom/Interscope Records,1,11,87,20599145,6dOtVTDdiauQNBQEDOtlAB,6qqNVTkY8uBg9cP3Jd7DAH,2024-05-17,False,95.0,unknown,122190602.0,93.0
-2026-01-15,16,"Dave, Tems",Raindance (feat. Tems),Neighbourhood,16,28,7,20285068,3oTuTpF1F3A7rEC6RKsMRz,6Ip8FS7vWT1uKkJSweANQK,2025-10-23,True,92.0,grime|uk grime|uk drill|drill,6974844.0,82.0
-2026-01-15,17,The Goo Goo Dolls,Iris,Warner Records,12,15,124,19462340,6Qyc6fS4DsZjB2mRW9DsQs,2sil8z5kiy4r76CRTXxBCA,,False,93.0,unknown,3727157.0,78.0
-2026-01-15,18,Tyla,CHANEL,Epic,9,12,9,19421773,4VxTzYm00mg82MuoT35Ja7,3SozjO3Lat463tQICI9LcE,2025-10-24,True,93.0,afrobeats,4241395.0,83.0
-2026-01-15,19,"Peso Pluma, Tito Double P",dopamina,Double P Records,13,19,3,19114232,3e32UUqXzrI4g2y5kNZrwC,12GqGscKJx3aE4t07u7eVZ,2025-12-25,True,89.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sad sierreño|banda|electro corridos,25407668.0,93.0
+2026-01-15,11,The Police,Every Breath You Take,Polydor Records,8,8,214,23980867,1JSTJqkT5qHq8MDJnJbRE1,5NGO30tJxFlKixkPSgXcFE,1983-06-17,False,95.0,unknown,7892134.0,81.0
+2026-01-15,12,Alex Warren,Ordinary,Atlantic Records,1,9,49,23653815,2RkZ5LkEzeHGRsmDqKwmaJ,0fTSzq9jAh4c36UVb4V7CB,2024-09-26,False,92.0,unknown,3477919.0,86.0
+2026-01-15,13,SIENNA SPIRO,Die On This Hill,Capitol Records,13,33,5,22389725,2gYTC8DsplN3RNdpdBcCOQ,02gSuSAWEdWa5UOvqzjX6v,2025-10-10,False,93.0,unknown,511992.0,80.0
+2026-01-15,14,She & Him,I Thought I Saw Your Face Today,Merge Records,14,14,6,21090409,0myRViRgmQ3J8izICXEAVO,3CIRif6ZAedT7kZSPvj2A4,2008-03-18,False,93.0,christmas,565437.0,76.0
+2026-01-15,15,Billie Eilish,BIRDS OF A FEATHER,Darkroom/Interscope Records,1,11,87,20599145,6dOtVTDdiauQNBQEDOtlAB,6qqNVTkY8uBg9cP3Jd7DAH,2024-05-17,False,95.0,unknown,122223610.0,93.0
+2026-01-15,16,"Dave, Tems",Raindance (feat. Tems),Neighbourhood,16,28,7,20285068,3oTuTpF1F3A7rEC6RKsMRz,6Ip8FS7vWT1uKkJSweANQK,2025-10-23,True,93.0,grime|uk grime|uk drill|drill,6981006.0,83.0
+2026-01-15,17,The Goo Goo Dolls,Iris,Warner Records,12,15,124,19462340,6Qyc6fS4DsZjB2mRW9DsQs,2sil8z5kiy4r76CRTXxBCA,,False,93.0,unknown,3729713.0,79.0
+2026-01-15,18,Tyla,CHANEL,Epic,9,12,9,19421773,4VxTzYm00mg82MuoT35Ja7,3SozjO3Lat463tQICI9LcE,2025-10-24,True,93.0,afrobeats,4247557.0,83.0
+2026-01-15,19,"Peso Pluma, Tito Double P",dopamina,Double P Records,13,19,3,19114232,3e32UUqXzrI4g2y5kNZrwC,12GqGscKJx3aE4t07u7eVZ,2025-12-25,True,89.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sad sierreño|banda,25426473.0,93.0
 2026-01-15,20,Bruno Mars,Locked out of Heaven,Atlantic Records,20,93,180,18538734,5g7sDjBhZ4I3gcFIpkrLuI,,,,,unknown,,
-2026-01-15,21,Gigi Perez,Sailor Song,"Outtahere, LLC / Island Records",7,16,74,18269907,21IYMdzTrzSe191Cy5eMap,1iCnM8foFssWlPRLfAbIwo,2025-04-25,False,89.0,unknown,1908570.0,79.0
-2026-01-15,22,Bruno Mars,That's What I Like,Atlantic Records,6,66,168,18132730,0KKkJNfGyhkQ5aFogxQAPU,0du5cEVh5yTK9QJze8zA0C,2016-11-17,False,92.0,unknown,78309743.0,95.0
-2026-01-15,23,KATSEYE,Gabriela,HYBE/Geffen,10,17,30,17908421,1xOqGUkyxGQRdCvGpvWKmL,3c0gDdb9lhnHGFtP4prQpn,2025-06-20,False,93.0,k-pop,7473030.0,86.0
-2026-01-15,24,"El Bogueto, Yung Beef",Cuando No Era Cantante,Candela Music,18,18,13,17537104,44xDy4h27s4ENaC8fKnCoC,3S9Hg7sRKhmtWunFZ2yAYP,2024-09-26,True,92.0,reggaeton mexa|reggaeton,1610099.0,81.0
+2026-01-15,21,Gigi Perez,Sailor Song,"Outtahere, LLC / Island Records",7,16,74,18269907,21IYMdzTrzSe191Cy5eMap,1iCnM8foFssWlPRLfAbIwo,2025-04-25,False,89.0,unknown,1911386.0,79.0
+2026-01-15,22,Bruno Mars,That's What I Like,Atlantic Records,6,66,168,18132730,0KKkJNfGyhkQ5aFogxQAPU,0du5cEVh5yTK9QJze8zA0C,2016-11-17,False,92.0,unknown,78345629.0,95.0
+2026-01-15,23,KATSEYE,Gabriela,HYBE/Geffen,10,17,30,17908421,1xOqGUkyxGQRdCvGpvWKmL,3c0gDdb9lhnHGFtP4prQpn,2025-06-20,False,93.0,k-pop,7493079.0,86.0
+2026-01-15,24,"El Bogueto, Yung Beef",Cuando No Era Cantante,Candela Music,18,18,13,17537104,44xDy4h27s4ENaC8fKnCoC,3S9Hg7sRKhmtWunFZ2yAYP,2024-09-26,True,92.0,reggaeton mexa|reggaeton,1613261.0,81.0
 2026-01-15,25,The Neighbourhood,Sweater Weather,Columbia,16,23,281,17483840,0cQVqPuHQP4KEwc7ZUQmj6,,,,,unknown,,
-2026-01-15,26,"Disco Lines, Tinashe",No Broke Boys,Nice Life/Atlantic,13,21,29,17295951,3cZajhyr8LmtPfHZ9296tj,5Kmr0b3ip8g9P2i0dLTC3Z,2025-06-06,True,93.0,stutter house,319997.0,77.0
-2026-01-15,27,Ravyn Lenae,Love Me Not,Atlantic Records,8,24,43,16980360,4WFgvKVfEhb3IUAFGrutTR,5RTLRtXjbXI2lSXc6jxlAz,2024-08-09,False,89.0,alternative r&b|indie soul,959717.0,78.0
-2026-01-15,28,Taylor Swift,Opalite,Taylor Swift,2,22,15,16915253,3yWuTOYDztXjZxdE2cIRUa,06HL4z0CvFAxyc27GXpf02,2025-10-03,False,93.0,unknown,150343698.0,100.0
-2026-01-15,29,Bad Bunny,DtMF,Rimas Entertainment LLC.,1,25,54,15932642,3sK8wGT43QFpWrvNQsrQya,4q3ewBCX7sLwd24euuV69X,2025-01-05,True,93.0,reggaeton|trap latino|urbano latino|latin,107003839.0,99.0
-2026-01-15,30,Bad Bunny,BAILE INoLVIDABLE,Rimas Entertainment LLC.,4,26,54,15756150,2lTm559tuIvatlT1u0JYG2,4q3ewBCX7sLwd24euuV69X,2025-01-05,True,93.0,reggaeton|trap latino|urbano latino|latin,107003839.0,99.0
-2026-01-15,31,"The Weeknd, JENNIE, Lily-Rose Depp","One Of The Girls (with JENNIE, Lily Rose Depp)",XO / Republic Records,3,32,119,15715942,7CyPwkp0oE8Ro9Dd5CUDjW,1Xyo4u8uXC1ZmMpatF05PJ,2023-06-23,False,92.0,unknown,117396010.0,96.0
-2026-01-15,32,"Peso Pluma, Tito Double P",daño,Double P Records,32,42,3,15508018,136BeIIoBGrrU9fI1jbcDR,12GqGscKJx3aE4t07u7eVZ,2025-12-25,True,89.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sad sierreño|banda|electro corridos,25407668.0,93.0
-2026-01-15,33,EsDeeKid,4 Raws,Lizzy Records,33,53,7,15395242,554qQSs9lpRVq6TlaaiIKT,0EyhkwP3UnwGFBy6xwKjSy,2025-06-20,True,91.0,unknown,1290077.0,86.0
-2026-01-15,34,sombr,12 to 12,Warner Records,14,30,25,15313948,05od2qm2MTSKCHxy1GBp5W,4G9NDjRyZFDlJKMRL8hx3S,2025-08-22,False,90.0,unknown,3537054.0,87.0
-2026-01-15,35,"El Bogueto, Anuel AA, Fuerza Regida, Yung Beef",Cuando No Era Cantante - Remix,El Bogueto,33,35,5,15280810,2pbSCYzxrG0wa6qcj8IyiE,3S9Hg7sRKhmtWunFZ2yAYP,2025-12-10,True,91.0,reggaeton mexa|reggaeton,1610099.0,81.0
-2026-01-15,36,Radiohead,Creep,XL Recordings,27,37,111,15069027,70LcF31zb1H0PyJoS1Sx1r,4Z8W4fKeB5YxbusRsdQVPb,1993-02-22,True,93.0,art rock|alternative rock,14862487.0,88.0
-2026-01-15,37,Lord Huron,The Night We Met,Play It Again Sam,15,34,169,14950628,3hRV0jL3vUpRrcy398teAU,6ltzsmQQbmdoHHbLZ4ZN25,2015-04-06,False,90.0,unknown,2272268.0,79.0
-2026-01-15,38,"DJ Japa NK, MC Meno K, MC Ryan SP, Mc Jacaré, DJ DAVI DOGDOG",Posso Até Não Te Dar Flores,Bololo Records,11,43,13,14923064,4G7bbgD2DHORU4frrWoCXp,1bpnl8qbR9GxmiNlkEufW6,2025-09-11,True,91.0,brazilian funk|trap funk|funk consciente,516380.0,83.0
-2026-01-15,39,Kate Bush,Running Up That Hill (A Deal With God),Fish People,1,20,41,14842116,1PtQJZVZIdWIYdARpZRDFO,1aSxMhuvixZ8h9dK9jIDwL,1985-09-16,False,92.0,art pop|baroque pop|art rock,2754119.0,77.0
-2026-01-15,40,Jimin,Who,BIGHIT MUSIC,1,27,78,14830613,7tI8dRuH2Yc6RuoTjxo4dU,1oSPZhvZMIrWW5I41kPkkY,2024-07-19,False,87.0,k-pop,11143870.0,80.0
-2026-01-15,41,Billie Eilish,WILDFLOWER,Darkroom/Interscope Records,9,39,87,14815496,3QaPy1KgI7nu9FJEQUgn6h,6qqNVTkY8uBg9cP3Jd7DAH,2024-05-17,False,93.0,unknown,122190602.0,93.0
-2026-01-15,42,Prince,Purple Rain,Warner Records,36,36,2,14635338,1uvyZBs4IZYRebHIB1747m,5a2EaR3hamoenG9rDuVn8j,1984-06-25,False,88.0,funk|funk rock,7996962.0,77.0
+2026-01-15,26,"Disco Lines, Tinashe",No Broke Boys,Nice Life/Atlantic,13,21,29,17295951,3cZajhyr8LmtPfHZ9296tj,5Kmr0b3ip8g9P2i0dLTC3Z,2025-06-06,True,93.0,stutter house,320651.0,77.0
+2026-01-15,27,Ravyn Lenae,Love Me Not,Atlantic Records,8,24,43,16980360,4WFgvKVfEhb3IUAFGrutTR,5RTLRtXjbXI2lSXc6jxlAz,2024-08-09,False,89.0,alternative r&b|indie soul,960965.0,78.0
+2026-01-15,28,Taylor Swift,Opalite,Taylor Swift,2,22,15,16915253,3yWuTOYDztXjZxdE2cIRUa,06HL4z0CvFAxyc27GXpf02,2025-10-03,False,93.0,unknown,150400359.0,100.0
+2026-01-15,29,Bad Bunny,DtMF,Rimas Entertainment LLC.,1,25,54,15932642,3sK8wGT43QFpWrvNQsrQya,4q3ewBCX7sLwd24euuV69X,2025-01-05,True,93.0,reggaeton|trap latino|urbano latino|latin,107065943.0,99.0
+2026-01-15,30,Bad Bunny,BAILE INoLVIDABLE,Rimas Entertainment LLC.,4,26,54,15756150,2lTm559tuIvatlT1u0JYG2,4q3ewBCX7sLwd24euuV69X,2025-01-05,True,93.0,reggaeton|trap latino|urbano latino|latin,107065943.0,99.0
+2026-01-15,31,"The Weeknd, JENNIE, Lily-Rose Depp","One Of The Girls (with JENNIE, Lily Rose Depp)",XO / Republic Records,3,32,119,15715942,7CyPwkp0oE8Ro9Dd5CUDjW,1Xyo4u8uXC1ZmMpatF05PJ,2023-06-23,False,92.0,unknown,117440006.0,96.0
+2026-01-15,32,"Peso Pluma, Tito Double P",daño,Double P Records,32,42,3,15508018,136BeIIoBGrrU9fI1jbcDR,12GqGscKJx3aE4t07u7eVZ,2025-12-25,True,89.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sad sierreño|banda,25426473.0,93.0
+2026-01-15,33,EsDeeKid,4 Raws,Lizzy Records,33,53,7,15395242,554qQSs9lpRVq6TlaaiIKT,0EyhkwP3UnwGFBy6xwKjSy,2025-06-20,True,91.0,unknown,1298053.0,86.0
+2026-01-15,34,sombr,12 to 12,Warner Records,14,30,25,15313948,05od2qm2MTSKCHxy1GBp5W,4G9NDjRyZFDlJKMRL8hx3S,2025-08-22,False,90.0,unknown,3544631.0,87.0
+2026-01-15,35,"El Bogueto, Anuel AA, Fuerza Regida, Yung Beef",Cuando No Era Cantante - Remix,El Bogueto,33,35,5,15280810,2pbSCYzxrG0wa6qcj8IyiE,3S9Hg7sRKhmtWunFZ2yAYP,2025-12-10,True,91.0,reggaeton mexa|reggaeton,1613261.0,81.0
+2026-01-15,36,Radiohead,Creep,XL Recordings,27,37,111,15069027,70LcF31zb1H0PyJoS1Sx1r,4Z8W4fKeB5YxbusRsdQVPb,1993-02-22,True,92.0,art rock|alternative rock,14873376.0,88.0
+2026-01-15,37,Lord Huron,The Night We Met,Play It Again Sam,15,34,169,14950628,3hRV0jL3vUpRrcy398teAU,6ltzsmQQbmdoHHbLZ4ZN25,2015-04-06,False,90.0,unknown,2273481.0,79.0
+2026-01-15,38,"DJ Japa NK, MC Meno K, MC Ryan SP, Mc Jacaré, DJ DAVI DOGDOG",Posso Até Não Te Dar Flores,Bololo Records,11,43,13,14923064,4G7bbgD2DHORU4frrWoCXp,1bpnl8qbR9GxmiNlkEufW6,2025-09-11,True,91.0,brazilian funk|trap funk|funk consciente,521612.0,83.0
+2026-01-15,39,Kate Bush,Running Up That Hill (A Deal With God),Fish People,1,20,41,14842116,1PtQJZVZIdWIYdARpZRDFO,1aSxMhuvixZ8h9dK9jIDwL,1985-09-16,False,91.0,art pop|baroque pop|art rock,2756659.0,77.0
+2026-01-15,40,Jimin,Who,BIGHIT MUSIC,1,27,78,14830613,7tI8dRuH2Yc6RuoTjxo4dU,1oSPZhvZMIrWW5I41kPkkY,2024-07-19,False,87.0,k-pop,11148879.0,80.0
+2026-01-15,41,Billie Eilish,WILDFLOWER,Darkroom/Interscope Records,9,39,87,14815496,3QaPy1KgI7nu9FJEQUgn6h,6qqNVTkY8uBg9cP3Jd7DAH,2024-05-17,False,92.0,unknown,122223610.0,93.0
+2026-01-15,42,Prince,Purple Rain,Warner Records,36,36,2,14635338,1uvyZBs4IZYRebHIB1747m,5a2EaR3hamoenG9rDuVn8j,1984-06-25,False,88.0,funk|funk rock,7999252.0,77.0
 2026-01-15,43,Bruno Mars,Just the Way You Are,Elektra (NEK),34,130,155,14363042,7BqBn9nzAq8spo5e7cZ0dJ,,,,,unknown,,
-2026-01-15,44,"Drake, Wizkid, Kyla",One Dance,Cash Money Records/Young Money Ent./Universal Rec.,12,50,261,14340883,1zi7xx7UVEFkmKfv06H8x0,3TVXtAsR1Inumwj472S9r4,2016-05-06,False,91.0,rap,106281454.0,98.0
-2026-01-15,45,Coldplay,Yellow,Parlophone UK,19,44,265,14254176,3AJwUDP919kvQ9QcozQPxg,4gzpq5DPGxSnKTe4SA8HAU,2000-07-10,False,92.0,unknown,62236836.0,91.0
-2026-01-15,46,"DJ Snake, Justin Bieber",Let Me Love You,DJ Snake Def Jam,4,57,88,14254085,0lYBSQXN6rCTvUZvg9S0lU,540vIaP2JwjQb9dm3aArA4,2016-08-05,False,91.0,unknown,9455618.0,82.0
-2026-01-15,47,Idgitaf,Sedia Aku Sebelum Hujan,idgitaf musik,24,29,7,14224174,64qfw9JZl3RYCrq4Mn0WvT,7pFWMC2E7h8eL3SZyHRsRq,2025-10-08,False,90.0,indonesian pop|indonesian indie,2685895.0,76.0
+2026-01-15,44,"Drake, Wizkid, Kyla",One Dance,Cash Money Records/Young Money Ent./Universal Rec.,12,50,261,14340883,1zi7xx7UVEFkmKfv06H8x0,3TVXtAsR1Inumwj472S9r4,2016-05-06,False,91.0,rap,106315851.0,98.0
+2026-01-15,45,Coldplay,Yellow,Parlophone UK,19,44,265,14254176,3AJwUDP919kvQ9QcozQPxg,4gzpq5DPGxSnKTe4SA8HAU,2000-07-10,False,92.0,unknown,62251071.0,91.0
+2026-01-15,46,"DJ Snake, Justin Bieber",Let Me Love You,DJ Snake Def Jam,4,57,88,14254085,0lYBSQXN6rCTvUZvg9S0lU,540vIaP2JwjQb9dm3aArA4,2016-08-05,False,91.0,unknown,9457457.0,82.0
+2026-01-15,47,Idgitaf,Sedia Aku Sebelum Hujan,idgitaf musik,24,29,7,14224174,64qfw9JZl3RYCrq4Mn0WvT,7pFWMC2E7h8eL3SZyHRsRq,2025-10-08,False,90.0,indonesian pop|indonesian indie,2690019.0,76.0
 2026-01-15,48,"ROSÉ, Bruno Mars",APT.,Atlantic Records,1,40,65,14217144,4wJ5Qq0jBN4ajy7ouZIV1c,,,,,unknown,,
-2026-01-15,49,Benson Boone,Beautiful Things,"Night Street Records, Inc./Warner Records Inc.",1,41,104,14215925,3xkHsmpQCBMytMJNiDf3Ii,22wbnEMDvgVIAGdFeek6ET,2024-04-05,False,89.0,unknown,7605154.0,85.0
-2026-01-15,50,"ROSALÍA, Yahritza Y Su Esencia",La Perla,Columbia,7,46,10,14127443,4oVO4fGNRRvEn0CRuFO4qv,7ltDVBr6mKbRvohxheJ9h1,2025-11-07,True,92.0,latin,9290552.0,87.0
-2026-01-15,51,Jin,Don’t Say You Love Me,BIGHIT MUSIC,2,49,35,13910693,27xkOIER6uDLKALIelHylZ,5vV3bFXnN6D6N3Nj4xRvaV,2025-05-16,False,86.0,k-pop,9987792.0,79.0
-2026-01-15,52,Sabrina Carpenter,Espresso,Island Records,1,38,92,13892392,2HRqTpkrJO5ggZyyK6NPWz,74KM79TiuVKeVCqs8QtB0B,2024-08-23,True,88.0,pop,28998690.0,92.0
-2026-01-15,53,Arctic Monkeys,I Wanna Be Yours,Domino Recording Co,15,47,184,13856919,5XeFesFbtLpXzIVDNQP22n,7Ln80lUS6He07XvHI8qqHH,2013-09-09,False,92.0,indie|garage rock,33060621.0,87.0
-2026-01-15,54,"The Weeknd, Daft Punk",Starboy,Universal Republic Records,1,55,276,13588314,7MXVkk9YMctZqd1Srtv4MB,1Xyo4u8uXC1ZmMpatF05PJ,2016-11-25,True,91.0,unknown,117396010.0,96.0
-2026-01-15,55,"Peso Pluma, Tito Double P",7-3,Double P Records,55,101,3,13551165,4lzo6zPM2paqyP8oBp3DOs,12GqGscKJx3aE4t07u7eVZ,2025-12-25,True,88.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sad sierreño|banda|electro corridos,25407668.0,93.0
+2026-01-15,49,Benson Boone,Beautiful Things,"Night Street Records, Inc./Warner Records Inc.",1,41,104,14215925,3xkHsmpQCBMytMJNiDf3Ii,22wbnEMDvgVIAGdFeek6ET,2024-04-05,False,89.0,unknown,7610224.0,85.0
+2026-01-15,50,"ROSALÍA, Yahritza Y Su Esencia",La Perla,Columbia,7,46,10,14127443,4oVO4fGNRRvEn0CRuFO4qv,7ltDVBr6mKbRvohxheJ9h1,2025-11-07,True,92.0,latin,9293765.0,87.0
+2026-01-15,51,Jin,Don’t Say You Love Me,BIGHIT MUSIC,2,49,35,13910693,27xkOIER6uDLKALIelHylZ,5vV3bFXnN6D6N3Nj4xRvaV,2025-05-16,False,86.0,k-pop,9991885.0,80.0
+2026-01-15,52,Sabrina Carpenter,Espresso,Island Records,1,38,92,13892392,2HRqTpkrJO5ggZyyK6NPWz,74KM79TiuVKeVCqs8QtB0B,2024-08-23,True,88.0,pop,29024118.0,92.0
+2026-01-15,53,Arctic Monkeys,I Wanna Be Yours,Domino Recording Co,15,47,184,13856919,5XeFesFbtLpXzIVDNQP22n,7Ln80lUS6He07XvHI8qqHH,2013-09-09,False,92.0,indie|garage rock,33076388.0,87.0
+2026-01-15,54,"The Weeknd, Daft Punk",Starboy,Universal Republic Records,1,55,276,13588314,7MXVkk9YMctZqd1Srtv4MB,1Xyo4u8uXC1ZmMpatF05PJ,2016-11-25,True,91.0,unknown,117440006.0,96.0
+2026-01-15,55,"Peso Pluma, Tito Double P",7-3,Double P Records,55,101,3,13551165,4lzo6zPM2paqyP8oBp3DOs,12GqGscKJx3aE4t07u7eVZ,2025-12-25,True,88.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sad sierreño|banda,25426473.0,93.0
 2026-01-15,56,Bruno Mars,When I Was Your Man,Atlantic Records,38,186,159,13215778,0B7wvvmu9EISAwZnOpjhNI,,,,,unknown,,
-2026-01-15,57,Sabrina Carpenter,Manchild,Island Records,1,45,32,13174534,2BwO5K8Q7EPAJSGze3AAh9,74KM79TiuVKeVCqs8QtB0B,2025-08-29,True,88.0,pop,28998690.0,92.0
-2026-01-15,58,"W Sound, Beéle, Ovy On The Drums",La Plena - W Sound 05,WEA Latina,5,59,46,13128046,6iOndD4OFo7GkaDypWQIou,5uwa6tAMMfNbBFIHiI6NV4,2025-02-19,True,90.0,unknown,922953.0,76.0
-2026-01-15,59,Coldplay,Sparks,Parlophone UK,30,52,73,13042632,7D0RhFcb3CrfPuTJ0obrod,4gzpq5DPGxSnKTe4SA8HAU,2000-07-10,False,91.0,unknown,62236836.0,91.0
-2026-01-15,60,Gracie Abrams,That’s So True,"Gracie Abrams, under exclusive license to Interscope Records",3,48,65,13026134,7ne4VBA60CxGM75vw0EYad,4tuJ0bMpJh08umKkEXKUI5,2024-10-18,True,91.0,unknown,8354785.0,85.0
-2026-01-15,61,Lil Uzi Vert,What You Saying,Roc Nation Distribution,61,82,2,12964384,7cjoZVmWe2xsGR4wcXiV2v,4O15NlyKLIASxsJ0PrXPfz,2025-12-22,False,89.0,melodic rap|rage rap,19728980.0,87.0
-2026-01-15,62,Teddy Swims,Lose Control,Warner Records,5,56,114,12840000,17phhZDn6oGtzMe56NuWvj,33qOK5uJ8AR2xuQQAhHump,2023-09-15,False,90.0,unknown,6135704.0,86.0
-2026-01-15,63,"EsDeeKid, Rico Ace",Phantom,Lizzy Records,45,58,9,12710645,57Z6TJCTMACXxdrcwZ3Zvf,0EyhkwP3UnwGFBy6xwKjSy,2025-06-20,True,91.0,unknown,1290077.0,86.0
-2026-01-15,64,Kehlani,Folded,TSNMI / Atlantic,62,62,24,12589510,0bxPRWprUVpQK0UFcddkrA,0cGUm45nv7Z6M6qdXYQGTX,2025-06-11,False,90.0,unknown,8992941.0,81.0
-2026-01-15,65,"The Weeknd, Playboi Carti",Timeless (feat Playboi Carti),XO / Republic Records,3,60,68,12468089,0FIDCNYYjNvPVimz5icugS,1Xyo4u8uXC1ZmMpatF05PJ,2025-01-31,True,92.0,unknown,117396010.0,96.0
-2026-01-15,66,The Killers,Mr. Brightside,Island Records,61,64,203,12455753,003vvx7Niy0yvhvHt4a68B,0C0XlULifJtAgn6ZNCW2eu,,False,91.0,alternative rock,8198586.0,80.0
-2026-01-15,67,"Jung Kook, Latto",Seven (feat. Latto) (Explicit Ver.),BIGHIT MUSIC,1,61,131,12331319,2HRgqmZQC0MC7GeNuDIXHN,6HaGTQPmzraVmaVxvz6EUc,2023-11-03,True,85.0,k-pop,19152953.0,83.0
-2026-01-15,68,Fleetwood Mac,Dreams - 2004 Remaster,Rhino/Warner Records,20,54,137,12272792,0ofHAoxe9vBkTCp2UQIavz,08GQAI4eElDnROBrJRGE0X,1977-02-04,False,90.0,classic rock|yacht rock|soft rock,14511792.0,86.0
+2026-01-15,57,Sabrina Carpenter,Manchild,Island Records,1,45,32,13174534,2BwO5K8Q7EPAJSGze3AAh9,74KM79TiuVKeVCqs8QtB0B,2025-08-29,True,88.0,pop,29024118.0,92.0
+2026-01-15,58,"W Sound, Beéle, Ovy On The Drums",La Plena - W Sound 05,WEA Latina,5,59,46,13128046,6iOndD4OFo7GkaDypWQIou,5uwa6tAMMfNbBFIHiI6NV4,2025-02-19,True,90.0,unknown,923970.0,76.0
+2026-01-15,59,Coldplay,Sparks,Parlophone UK,30,52,73,13042632,7D0RhFcb3CrfPuTJ0obrod,4gzpq5DPGxSnKTe4SA8HAU,2000-07-10,False,91.0,unknown,62251071.0,91.0
+2026-01-15,60,Gracie Abrams,That’s So True,"Gracie Abrams, under exclusive license to Interscope Records",3,48,65,13026134,7ne4VBA60CxGM75vw0EYad,4tuJ0bMpJh08umKkEXKUI5,2024-10-18,True,91.0,unknown,8364985.0,85.0
+2026-01-15,61,Lil Uzi Vert,What You Saying,Roc Nation Distribution,61,82,2,12964384,7cjoZVmWe2xsGR4wcXiV2v,4O15NlyKLIASxsJ0PrXPfz,2025-12-22,False,89.0,melodic rap|rage rap,19735812.0,87.0
+2026-01-15,62,Teddy Swims,Lose Control,Warner Records,5,56,114,12840000,17phhZDn6oGtzMe56NuWvj,33qOK5uJ8AR2xuQQAhHump,2023-09-15,False,90.0,unknown,6140116.0,86.0
+2026-01-15,63,"EsDeeKid, Rico Ace",Phantom,Lizzy Records,45,58,9,12710645,57Z6TJCTMACXxdrcwZ3Zvf,0EyhkwP3UnwGFBy6xwKjSy,2025-06-20,True,91.0,unknown,1298053.0,86.0
+2026-01-15,64,Kehlani,Folded,TSNMI / Atlantic,62,62,24,12589510,0bxPRWprUVpQK0UFcddkrA,0cGUm45nv7Z6M6qdXYQGTX,2025-06-11,False,90.0,unknown,8996703.0,81.0
+2026-01-15,65,"The Weeknd, Playboi Carti",Timeless (feat Playboi Carti),XO / Republic Records,3,60,68,12468089,0FIDCNYYjNvPVimz5icugS,1Xyo4u8uXC1ZmMpatF05PJ,2025-01-31,True,91.0,unknown,117440006.0,96.0
+2026-01-15,66,The Killers,Mr. Brightside,Island Records,61,64,203,12455753,003vvx7Niy0yvhvHt4a68B,0C0XlULifJtAgn6ZNCW2eu,,False,91.0,alternative rock,8200715.0,80.0
+2026-01-15,67,"Jung Kook, Latto",Seven (feat. Latto) (Explicit Ver.),BIGHIT MUSIC,1,61,131,12331319,2HRgqmZQC0MC7GeNuDIXHN,6HaGTQPmzraVmaVxvz6EUc,2023-11-03,True,85.0,k-pop,19159928.0,83.0
+2026-01-15,68,Fleetwood Mac,Dreams - 2004 Remaster,Rhino/Warner Records,20,54,137,12272792,0ofHAoxe9vBkTCp2UQIavz,08GQAI4eElDnROBrJRGE0X,1977-02-04,False,90.0,classic rock|yacht rock|soft rock,14517957.0,86.0
 2026-01-15,69,Bruno Mars,It Will Rain,Elektra (NEK),62,-1,20,12180148,4rMNgxEwGWoPHIUcvB5BrB,,,,,unknown,,
-2026-01-15,70,Neton Vega,Pvta Luna,Josa Records (Neton Vega),70,71,9,12123116,33MeEaRCeIQMSRyFTr5ZJU,6pV5zH2LzjOUHaAvENdMMa,2025-09-26,False,88.0,corrido|corridos tumbados|corridos bélicos|electro corridos|dembow belico,5265176.0,87.0
-2026-01-15,71,Daniel Caesar,Who Knows,Republic Records,71,78,8,11955059,6DH13QYXK7lKkYHSU88N48,20wkVLutqVOYrc0kxFs7rA,2025-10-24,False,90.0,unknown,12472043.0,88.0
-2026-01-15,72,KATSEYE,Internet Girl,Hybe/Geffen,31,31,2,11911971,3THVfoVD5kdCxPviVaCPi7,3c0gDdb9lhnHGFtP4prQpn,2026-01-02,False,87.0,k-pop,7473030.0,86.0
-2026-01-15,73,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",Black Panther (TDE/DMG) PS,2,69,135,11818185,3GCdLUSnKSMJhs4Tj6CV3s,2YZyLoL8N0Wb9xBt1NhZWg,2018-02-09,True,90.0,hip hop|west coast hip hop,46075516.0,92.0
-2026-01-15,74,The Marías,No One Noticed,Nice Life/Atlantic,37,65,61,11759554,3siwsiaEoU4Kuuc9WKMUy5,2sSGPbdZJkaSE2AbcGOACx,2024-05-31,False,90.0,bedroom pop,4318566.0,85.0
-2026-01-15,75,Beéle,no tiene sentido,5020 Records,18,79,31,11722777,1HEwEN64NjgTaHmo7LfkX8,7a0XAaPaK2aDSqa8p3QnC7,2025-05-15,False,89.0,latin afrobeats|reggaeton|pop urbano,3962240.0,89.0
-2026-01-15,76,"PEDRO SAMPAIO, MC Meno K, Melody",JETSKI,Sony Music Entertainment,76,115,3,11718887,3jhyw60F61gc7nC4dblqtC,5wbf52LA6kcaboHSN6NEF1,2025-12-18,True,87.0,brazilian funk|funk pop|funk carioca|brazilian pop|brega funk,3227502.0,79.0
-2026-01-15,77,"Gorillaz, De La Soul",Feel Good Inc.,Parlophone UK,46,73,56,11633979,0d28khcov6AiegSCpG5TuT,3AA28KZvwAUcZuOKwyblJQ,2005-05-23,False,90.0,unknown,15150041.0,84.0
-2026-01-15,78,sombr,undressed,Warner Records,6,67,42,11617316,0TFTAtCYhp2tQ9KcJIZb55,4G9NDjRyZFDlJKMRL8hx3S,2025-08-22,False,88.0,unknown,3537054.0,87.0
+2026-01-15,70,Neton Vega,Pvta Luna,Josa Records (Neton Vega),70,71,9,12123116,33MeEaRCeIQMSRyFTr5ZJU,6pV5zH2LzjOUHaAvENdMMa,2025-09-26,False,88.0,corrido|corridos tumbados|corridos bélicos|electro corridos|dembow belico,5275750.0,87.0
+2026-01-15,71,Daniel Caesar,Who Knows,Republic Records,71,78,8,11955059,6DH13QYXK7lKkYHSU88N48,20wkVLutqVOYrc0kxFs7rA,2025-10-24,False,90.0,unknown,12483767.0,88.0
+2026-01-15,72,KATSEYE,Internet Girl,Hybe/Geffen,31,31,2,11911971,3THVfoVD5kdCxPviVaCPi7,3c0gDdb9lhnHGFtP4prQpn,2026-01-02,False,87.0,k-pop,7493079.0,86.0
+2026-01-15,73,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",Black Panther (TDE/DMG) PS,2,69,135,11818185,3GCdLUSnKSMJhs4Tj6CV3s,2YZyLoL8N0Wb9xBt1NhZWg,2018-02-09,True,90.0,hip hop|west coast hip hop,46090824.0,92.0
+2026-01-15,74,The Marías,No One Noticed,Nice Life/Atlantic,37,65,61,11759554,3siwsiaEoU4Kuuc9WKMUy5,2sSGPbdZJkaSE2AbcGOACx,2024-05-31,False,90.0,bedroom pop,4323952.0,85.0
+2026-01-15,75,Beéle,no tiene sentido,5020 Records,18,79,31,11722777,1HEwEN64NjgTaHmo7LfkX8,7a0XAaPaK2aDSqa8p3QnC7,2025-05-15,False,89.0,latin afrobeats|reggaeton|pop urbano,3969972.0,89.0
+2026-01-15,76,"PEDRO SAMPAIO, MC Meno K, Melody",JETSKI,Sony Music Entertainment,76,115,3,11718887,3jhyw60F61gc7nC4dblqtC,5wbf52LA6kcaboHSN6NEF1,2025-12-18,True,87.0,brazilian funk|funk pop|funk carioca|brazilian pop|brega funk,3230119.0,79.0
+2026-01-15,77,"Gorillaz, De La Soul",Feel Good Inc.,Parlophone UK,46,73,56,11633979,0d28khcov6AiegSCpG5TuT,3AA28KZvwAUcZuOKwyblJQ,2005-05-23,False,90.0,unknown,15157184.0,84.0
+2026-01-15,78,sombr,undressed,Warner Records,6,67,42,11617316,0TFTAtCYhp2tQ9KcJIZb55,4G9NDjRyZFDlJKMRL8hx3S,2025-08-22,False,88.0,unknown,3544631.0,87.0
 2026-01-15,79,Arctic Monkeys,505,Domino Recording Co,43,68,210,11592578,58ge6dfP91o9oXMzq3XkIS,,,,,unknown,,
 2026-01-15,80,"Ryan Castro, Kapo",LA VILLA,AWOO Corp./Sony Music Latin,80,-1,1,11592014,2ZyrAym0sRLwt4PhGotHuI,,,,,unknown,,
-2026-01-15,81,The Weeknd,Blinding Lights,Republic Records,1,63,320,11512841,0VjIjW4GlUZAMYd2vXMi3b,1Xyo4u8uXC1ZmMpatF05PJ,2020-03-20,False,91.0,unknown,117396010.0,96.0
-2026-01-15,82,Nadhif Basalamah,kota ini tak sama tanpamu,After School,82,103,2,11442692,13CwOTXUgBugeBByE9oIWb,6UgERnTHmjk3qXM9x5vzyO,2025-06-20,False,87.0,malay|indonesian pop|indonesian r&b,2562172.0,78.0
-2026-01-15,83,Bad Bunny,NUEVAYoL,Rimas Entertainment LLC.,5,76,54,11439997,5TFD2bmFKGhoCRbX61nXY5,4q3ewBCX7sLwd24euuV69X,2025-01-05,False,91.0,reggaeton|trap latino|urbano latino|latin,107003839.0,99.0
-2026-01-15,84,Linkin Park,In the End,Warner Records,22,91,126,11404341,60a0Rd6pjrkxjPbaKzXjfq,6XyY86QOPPrYVGvF9ch6wz,2000-10-24,False,90.0,nu metal|rap metal|rock|alternative metal,32934070.0,91.0
-2026-01-15,85,Ella Langley,Choosin' Texas,SAWGOD/Columbia,85,94,2,11325155,65DbTqJKhbwqYbZ1Okr0rc,6BRxQ8cD3eqnrVj6WKDok8,2025-10-17,False,90.0,country,932282.0,83.0
-2026-01-15,86,Bad Bunny,EoO,Rimas Entertainment LLC.,9,100,54,11224107,6J5kc12BW5HuP3d7C3vvx8,4q3ewBCX7sLwd24euuV69X,2025-01-05,True,90.0,reggaeton|trap latino|urbano latino|latin,107003839.0,99.0
-2026-01-15,87,Tears For Fears,Everybody Wants To Rule The World,UMC (Universal Music Catalogue),51,51,142,11074048,4RvWPyQ5RL0ao9LPZeSouE,4bthk9UfsYUYdcFyqxmSUU,1985-02-25,False,90.0,new wave|synthpop,4274629.0,77.0
-2026-01-15,88,Herencia De Grandes,Ya Borracho,Rancho Humilde,88,92,8,10974935,4NyUIohBa3CEMGcXURYSOh,0ocHleb3SllGNQQcDH35Xz,2025-11-07,False,88.0,corrido|corridos bélicos,854345.0,79.0
-2026-01-15,89,Harry Styles,As It Was,Columbia,1,89,191,10973995,4Dvkj6JhhA12EX05fT7y2e,6KImCVD70vtIoJWnq6nGn3,2022-05-20,False,90.0,unknown,34595118.0,86.0
-2026-01-15,90,Bruno Mars,Grenade,Elektra (NEK),90,-1,5,10953799,4lLtanYk6tkMvooU0tWzG8,0du5cEVh5yTK9QJze8zA0C,2010-05-11,False,84.0,unknown,78309743.0,95.0
-2026-01-15,91,Justin Bieber,DAISIES,"JRC Entertainment, LLC / ILH Production Co. LLC / Def Jam Recordings",2,72,27,10871677,5BZsQlgw21vDOAjoqkNgKb,1uNFoZAHBGtllmzznpCI3s,2025-07-11,False,90.0,unknown,86567550.0,94.0
+2026-01-15,81,The Weeknd,Blinding Lights,Republic Records,1,63,320,11512841,0VjIjW4GlUZAMYd2vXMi3b,1Xyo4u8uXC1ZmMpatF05PJ,2020-03-20,False,91.0,unknown,117440006.0,96.0
+2026-01-15,82,Nadhif Basalamah,kota ini tak sama tanpamu,After School,82,103,2,11442692,13CwOTXUgBugeBByE9oIWb,6UgERnTHmjk3qXM9x5vzyO,2025-06-20,False,87.0,malay|indonesian pop|indonesian r&b,2570713.0,78.0
+2026-01-15,83,Bad Bunny,NUEVAYoL,Rimas Entertainment LLC.,5,76,54,11439997,5TFD2bmFKGhoCRbX61nXY5,4q3ewBCX7sLwd24euuV69X,2025-01-05,False,91.0,reggaeton|trap latino|urbano latino|latin,107065943.0,99.0
+2026-01-15,84,Linkin Park,In the End,Warner Records,22,91,126,11404341,60a0Rd6pjrkxjPbaKzXjfq,6XyY86QOPPrYVGvF9ch6wz,2000-10-24,False,90.0,nu metal|rap metal|rock|alternative metal,32946167.0,91.0
+2026-01-15,85,Ella Langley,Choosin' Texas,SAWGOD/Columbia,85,94,2,11325155,65DbTqJKhbwqYbZ1Okr0rc,6BRxQ8cD3eqnrVj6WKDok8,2025-10-17,False,90.0,country,935488.0,83.0
+2026-01-15,86,Bad Bunny,EoO,Rimas Entertainment LLC.,9,100,54,11224107,6J5kc12BW5HuP3d7C3vvx8,4q3ewBCX7sLwd24euuV69X,2025-01-05,True,90.0,reggaeton|trap latino|urbano latino|latin,107065943.0,99.0
+2026-01-15,87,Tears For Fears,Everybody Wants To Rule The World,UMC (Universal Music Catalogue),51,51,142,11074048,4RvWPyQ5RL0ao9LPZeSouE,4bthk9UfsYUYdcFyqxmSUU,1985-02-25,False,90.0,new wave|synthpop,4276728.0,77.0
+2026-01-15,88,Herencia De Grandes,Ya Borracho,Rancho Humilde,88,92,8,10974935,4NyUIohBa3CEMGcXURYSOh,0ocHleb3SllGNQQcDH35Xz,2025-11-07,False,88.0,corrido|corridos bélicos,857436.0,79.0
+2026-01-15,89,Harry Styles,As It Was,Columbia,1,89,191,10973995,4Dvkj6JhhA12EX05fT7y2e,6KImCVD70vtIoJWnq6nGn3,2022-05-20,False,90.0,unknown,34636082.0,86.0
+2026-01-15,90,Bruno Mars,Grenade,Elektra (NEK),90,-1,5,10953799,4lLtanYk6tkMvooU0tWzG8,0du5cEVh5yTK9QJze8zA0C,2010-05-11,False,84.0,unknown,78345629.0,95.0
+2026-01-15,91,Justin Bieber,DAISIES,"JRC Entertainment, LLC / ILH Production Co. LLC / Def Jam Recordings",2,72,27,10871677,5BZsQlgw21vDOAjoqkNgKb,1uNFoZAHBGtllmzznpCI3s,2025-07-11,False,90.0,unknown,86586987.0,94.0
 2026-01-15,92,Keane,Somewhere Only We Know,Universal-Island Records Ltd.,71,102,164,10840270,0ll8uFnc0nANY35E0Lfxvg,,,,,unknown,,
-2026-01-15,93,Chappell Roan,"Good Luck, Babe!",Chappell Roan PS/ Island,6,75,92,10795752,0WbMK4wrZ1wFSty9F7FCgu,7GlBOeep6PqTfFi59PTUUN,2024-04-05,False,90.0,unknown,7728275.0,83.0
-2026-01-15,94,Cigarettes After Sex,Apocalypse,Partisan Records,53,77,183,10758328,1oAwsWBovWRIp7qLMGPIet,1QAJqy2dA3ihHBFIHRphZj,2017-06-09,False,90.0,dream pop,18175703.0,86.0
-2026-01-15,95,Vance Joy,Riptide,Atlantic Records,30,85,257,10735728,2uXlHCUbq9OMUwx3hrk06o,10exVja0key0uqUkk6LJRT,2014-08-05,False,86.0,folk pop,3544602.0,76.0
-2026-01-15,96,Olivia Dean,A Couple Minutes,PLG - Capitol,88,88,8,10705851,312z6PZ8wwREck8613PkJk,00x1fYSGhdqScXBRpSj3DW,2025-09-26,False,89.0,pop soul,2724357.0,93.0
-2026-01-15,97,Olivia Dean,Nice To Each Other,PLG - Capitol,53,80,20,10627011,7gKxCvTDWwV9wBhdeBbr3l,00x1fYSGhdqScXBRpSj3DW,2025-05-30,False,89.0,pop soul,2724357.0,93.0
-2026-01-15,98,Ed Sheeran,Shape of You,Atlantic Records UK,1,104,397,10573568,7qiZfU4dY1lWllzX7mPBI3,6eUKZXaKkcviH0Ku9w2n3V,2017-03-03,False,90.0,soft pop,124480810.0,90.0
+2026-01-15,93,Chappell Roan,"Good Luck, Babe!",Chappell Roan PS/ Island,6,75,92,10795752,0WbMK4wrZ1wFSty9F7FCgu,7GlBOeep6PqTfFi59PTUUN,2024-04-05,False,90.0,unknown,7731980.0,83.0
+2026-01-15,94,Cigarettes After Sex,Apocalypse,Partisan Records,53,77,183,10758328,1oAwsWBovWRIp7qLMGPIet,1QAJqy2dA3ihHBFIHRphZj,2017-06-09,False,90.0,dream pop,18183304.0,86.0
+2026-01-15,95,Vance Joy,Riptide,Atlantic Records,30,85,257,10735728,2uXlHCUbq9OMUwx3hrk06o,10exVja0key0uqUkk6LJRT,2014-08-05,False,86.0,folk pop,3545309.0,76.0
+2026-01-15,96,Olivia Dean,A Couple Minutes,PLG - Capitol,88,88,8,10705851,312z6PZ8wwREck8613PkJk,00x1fYSGhdqScXBRpSj3DW,2025-09-26,False,89.0,pop soul,2735646.0,93.0
+2026-01-15,97,Olivia Dean,Nice To Each Other,PLG - Capitol,53,80,20,10627011,7gKxCvTDWwV9wBhdeBbr3l,00x1fYSGhdqScXBRpSj3DW,2025-05-30,False,89.0,pop soul,2735646.0,93.0
+2026-01-15,98,Ed Sheeran,Shape of You,Atlantic Records UK,1,104,397,10573568,7qiZfU4dY1lWllzX7mPBI3,6eUKZXaKkcviH0Ku9w2n3V,2017-03-03,False,90.0,soft pop,124498353.0,90.0
 2026-01-15,99,Bruno Mars,Talking to the Moon,Elektra (NEK),45,-1,77,10518893,161DnLWsx1i3u1JT05lzqU,,,,,unknown,,
 2026-01-15,100,Coldplay,Viva La Vida,Parlophone UK,31,81,177,10498138,1mea3bSkSGXuIRvnydlB5b,,,,,unknown,,
-2026-01-15,101,Radiohead,Let Down,XL Recordings,55,98,33,10481106,2fuYa3Lx06QQJAm0MjztKr,4Z8W4fKeB5YxbusRsdQVPb,1997-05-28,False,90.0,art rock|alternative rock,14862487.0,88.0
-2026-01-15,102,Ariana Grande,we can't be friends (wait for your love),Republic Records,1,83,97,10475839,51ZQ1vr10ffzbwIjDCwqm4,66CXWjxzNUsdJxJ2JdwvnR,2024-03-08,False,88.0,pop,109252002.0,94.0
-2026-01-15,103,"Peso Pluma, Tito Double P",ni pedo,Double P Records,70,84,3,10469235,7xLfNI4gRNTu6FyXJlzBW5,12GqGscKJx3aE4t07u7eVZ,2025-12-25,True,86.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sad sierreño|banda|electro corridos,25407668.0,93.0
-2026-01-15,104,Rels B,TU VAS SIN (fav),DALE PLAY Records / Flakk Team,28,109,27,10460795,6uiQ0DqbXTBc8tl0AUKZkR,2IMZYfNi21MGqxopj9fWx8,2025-06-20,False,90.0,urbano latino|trap latino,10211557.0,83.0
-2026-01-15,105,Tate McRae,Sports car,RCA Records Label,16,97,50,10433496,5UJbgR4XF4y1DvbkxEqe8S,45dkTj5sMRSjrmBSBeiHym,2025-02-20,False,87.0,unknown,10098930.0,91.0
-2026-01-15,106,Evanescence,Bring Me To Life,The Bicycle Music Company,106,122,41,10408065,0COqiPhxzoWICwFCS4eZcp,5nGIFgo0shDenQYSE0Sn7c,2003-03-04,False,89.0,alternative metal,6586626.0,78.0
-2026-01-15,107,Justin Bieber,Sorry,RBMG/Def Jam,65,111,38,10396063,09CtPGIpYB4BrO8qb1RGsF,1uNFoZAHBGtllmzznpCI3s,2015-11-13,False,88.0,unknown,86567550.0,94.0
-2026-01-15,108,JENNIE,like JENNIE,OA Entertainment/Columbia,6,118,45,10334300,0fK7ie6XwGxQTIkpFoWkd1,250b0Wlc5Vk0CoUsaCY84M,2025-03-07,True,89.0,k-pop,13366726.0,84.0
-2026-01-15,109,"LE SSERAFIM, j-hope",SPAGHETTI,SOURCE MUSIC,25,110,12,10193967,2N9miXnewVmUrgl6JSK1FI,4SpbR6yFEvexJuaBpgAU5p,2025-10-24,True,88.0,k-pop,8801998.0,82.0
-2026-01-15,110,Empire Of The Sun,We Are The People,EMI Recorded Music Australia Pty Ltd,94,99,24,10171397,3zEN0ii6s4DHHBpnTp3RP7,67hb7towEyKvt5Z8Bx306c,2008-10-03,False,89.0,unknown,2119187.0,81.0
-2026-01-15,111,Fuerza Regida,Marlboro Rojo,Rancho Humilde/Street Mob Records/Sony Music Latin,20,108,36,10170365,3hpm0fTeSqlhJbnqAgaLZs,0ys2OFYzWYB5hRDLCsBqxt,2025-05-02,True,89.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sierreño|banda|sad sierreño|electro corridos,22384117.0,92.0
-2026-01-15,112,Lana Del Rey,Cinnamon Girl,Polydor Records,112,137,13,10140119,2mdEsXPu8ZmkHRRtAdC09e,00FQb4jTyendYWaN8pK0wa,2019-08-30,False,89.0,unknown,54195415.0,91.0
-2026-01-15,113,Don Toliver,No Pole,Cactus Jack / Atlantic,72,112,57,10133274,0eaVIYo2zeOaGJeqZ5TwYz,4Gso3d4CscCijv0lmajZWs,2023-02-28,True,89.0,unknown,7948843.0,88.0
-2026-01-15,114,Tame Impala,The Less I Know The Better,Universal Music Australia Pty. Ltd.,87,87,67,10114003,6K4t31amVTZDgR3sKmwUJJ,5INjqkS1o8h1imAzPqGZBb,2015-07-17,True,90.0,neo-psychedelic|indie,10035035.0,86.0
-2026-01-15,115,Michael Jackson,Billie Jean,Epic,48,116,34,10101666,7J1uxwnxfQLu4APicE5Rnj,3fMbdgg4jU18AjLCKBhRSm,1982-11-30,False,87.0,unknown,39026150.0,88.0
+2026-01-15,101,Radiohead,Let Down,XL Recordings,55,98,33,10481106,2fuYa3Lx06QQJAm0MjztKr,4Z8W4fKeB5YxbusRsdQVPb,1997-05-28,False,90.0,art rock|alternative rock,14873376.0,88.0
+2026-01-15,102,Ariana Grande,we can't be friends (wait for your love),Republic Records,1,83,97,10475839,51ZQ1vr10ffzbwIjDCwqm4,66CXWjxzNUsdJxJ2JdwvnR,2024-03-08,False,88.0,pop,109271044.0,94.0
+2026-01-15,103,"Peso Pluma, Tito Double P",ni pedo,Double P Records,70,84,3,10469235,7xLfNI4gRNTu6FyXJlzBW5,12GqGscKJx3aE4t07u7eVZ,2025-12-25,True,86.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sad sierreño|banda,25426473.0,93.0
+2026-01-15,104,Rels B,TU VAS SIN (fav),DALE PLAY Records / Flakk Team,28,109,27,10460795,6uiQ0DqbXTBc8tl0AUKZkR,2IMZYfNi21MGqxopj9fWx8,2025-06-20,False,90.0,urbano latino|trap latino,10213809.0,83.0
+2026-01-15,105,Tate McRae,Sports car,RCA Records Label,16,97,50,10433496,5UJbgR4XF4y1DvbkxEqe8S,45dkTj5sMRSjrmBSBeiHym,2025-02-20,False,87.0,unknown,10106025.0,91.0
+2026-01-15,106,Evanescence,Bring Me To Life,The Bicycle Music Company,106,122,41,10408065,0COqiPhxzoWICwFCS4eZcp,5nGIFgo0shDenQYSE0Sn7c,2003-03-04,False,89.0,alternative metal,6590928.0,78.0
+2026-01-15,107,Justin Bieber,Sorry,RBMG/Def Jam,65,111,38,10396063,09CtPGIpYB4BrO8qb1RGsF,1uNFoZAHBGtllmzznpCI3s,2015-11-13,False,88.0,unknown,86586987.0,94.0
+2026-01-15,108,JENNIE,like JENNIE,OA Entertainment/Columbia,6,118,45,10334300,0fK7ie6XwGxQTIkpFoWkd1,250b0Wlc5Vk0CoUsaCY84M,2025-03-07,True,89.0,k-pop,13379846.0,84.0
+2026-01-15,109,"LE SSERAFIM, j-hope",SPAGHETTI,SOURCE MUSIC,25,110,12,10193967,2N9miXnewVmUrgl6JSK1FI,4SpbR6yFEvexJuaBpgAU5p,2025-10-24,True,88.0,k-pop,8811801.0,82.0
+2026-01-15,110,Empire Of The Sun,We Are The People,EMI Recorded Music Australia Pty Ltd,94,99,24,10171397,3zEN0ii6s4DHHBpnTp3RP7,67hb7towEyKvt5Z8Bx306c,2008-10-03,False,89.0,unknown,2120514.0,81.0
+2026-01-15,111,Fuerza Regida,Marlboro Rojo,Rancho Humilde/Street Mob Records/Sony Music Latin,20,108,36,10170365,3hpm0fTeSqlhJbnqAgaLZs,0ys2OFYzWYB5hRDLCsBqxt,2025-05-02,True,89.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sierreño|banda|sad sierreño|electro corridos,22411807.0,92.0
+2026-01-15,112,Lana Del Rey,Cinnamon Girl,Polydor Records,112,137,13,10140119,2mdEsXPu8ZmkHRRtAdC09e,00FQb4jTyendYWaN8pK0wa,2019-08-30,False,89.0,unknown,54222317.0,91.0
+2026-01-15,113,Don Toliver,No Pole,Cactus Jack / Atlantic,72,112,57,10133274,0eaVIYo2zeOaGJeqZ5TwYz,4Gso3d4CscCijv0lmajZWs,2023-02-28,True,89.0,unknown,7954786.0,88.0
+2026-01-15,114,Tame Impala,The Less I Know The Better,Universal Music Australia Pty. Ltd.,87,87,67,10114003,6K4t31amVTZDgR3sKmwUJJ,5INjqkS1o8h1imAzPqGZBb,2015-07-17,True,90.0,neo-psychedelic|indie,10039966.0,86.0
+2026-01-15,115,Michael Jackson,Billie Jean,Epic,48,116,34,10101666,7J1uxwnxfQLu4APicE5Rnj,3fMbdgg4jU18AjLCKBhRSm,1982-11-30,False,87.0,unknown,39043731.0,88.0
 2026-01-15,116,"Disney, Shakira",Zoo,Walt Disney Records,116,123,3,10068332,3vJIaiTIHxHhYafTSPNiH4,,,,,unknown,,
-2026-01-15,117,"Kendrick Lamar, SZA",luther (with sza),"pgLang, under exclusive license to Interscope Records",2,114,60,10026416,2CGNAOSuO1MEFCbBRgUzjd,2YZyLoL8N0Wb9xBt1NhZWg,2024-11-21,False,86.0,hip hop|west coast hip hop,46075516.0,92.0
-2026-01-15,118,"Saja Boys, Andrew Choi, Neckwav, Danny Chung, KEVIN WOO, samUIL Lee, KPop Demon Hunters Cast",Soda Pop,K-Pop Demon Hunters,4,96,30,9947367,02sy7FAs8dkDNYsHp4Ul3f,0BJ2EjOqcfgFvlZXNKrNbE,2025-06-20,False,90.0,unknown,2884284.0,78.0
-2026-01-15,119,"J Balvin, Bad Bunny",LA CANCIÓN,Universal Music Latino / Rimas,17,105,134,9931094,0fea68AdmYNygeTGI4RC18,1vyhD5VmyZ7KMfW5gqLgo5,2019-06-28,False,89.0,reggaeton|latin,39788695.0,89.0
-2026-01-15,120,The Script,The Man Who Can't Be Moved,Epic/Phonogenic,120,143,9,9914862,3nqqDo8CcCLke3ZoTgiOKf,3AQRLZ9PuTAozP28Skbq8V,2008-07-14,False,87.0,unknown,8940765.0,78.0
-2026-01-15,121,"Tate McRae, F1 The Album",Just Keep Watching (From F1® The Movie),Atlantic Records,10,132,30,9913448,2yWlGEgEfPot0lv3OAjuG3,45dkTj5sMRSjrmBSBeiHym,2025-05-30,False,89.0,unknown,10098930.0,91.0
+2026-01-15,117,"Kendrick Lamar, SZA",luther (with sza),"pgLang, under exclusive license to Interscope Records",2,114,60,10026416,2CGNAOSuO1MEFCbBRgUzjd,2YZyLoL8N0Wb9xBt1NhZWg,2024-11-21,False,86.0,hip hop|west coast hip hop,46090824.0,92.0
+2026-01-15,118,"Saja Boys, Andrew Choi, Neckwav, Danny Chung, KEVIN WOO, samUIL Lee, KPop Demon Hunters Cast",Soda Pop,K-Pop Demon Hunters,4,96,30,9947367,02sy7FAs8dkDNYsHp4Ul3f,0BJ2EjOqcfgFvlZXNKrNbE,2025-06-20,False,90.0,unknown,2889184.0,78.0
+2026-01-15,119,"J Balvin, Bad Bunny",LA CANCIÓN,Universal Music Latino / Rimas,17,105,134,9931094,0fea68AdmYNygeTGI4RC18,1vyhD5VmyZ7KMfW5gqLgo5,2019-06-28,False,89.0,reggaeton|latin,39797836.0,89.0
+2026-01-15,120,The Script,The Man Who Can't Be Moved,Epic/Phonogenic,120,143,9,9914862,3nqqDo8CcCLke3ZoTgiOKf,3AQRLZ9PuTAozP28Skbq8V,2008-07-14,False,87.0,unknown,8942106.0,78.0
+2026-01-15,121,"Tate McRae, F1 The Album",Just Keep Watching (From F1® The Movie),Atlantic Records,10,132,30,9913448,2yWlGEgEfPot0lv3OAjuG3,45dkTj5sMRSjrmBSBeiHym,2025-05-30,False,89.0,unknown,10106025.0,91.0
 2026-01-15,122,Nirvana,Smells Like Teen Spirit,Geffen,103,128,139,9852467,0gucTLf7trAf37Ua1uAyAu,,,,,unknown,,
-2026-01-15,123,Bad Bunny,VOY A LLeVARTE PA PR,Rimas Entertainment LLC.,8,150,46,9829987,59D4DOkspUbWyMmbAPQkxZ,4q3ewBCX7sLwd24euuV69X,2025-01-05,True,89.0,reggaeton|trap latino|urbano latino|latin,107003839.0,99.0
-2026-01-15,124,"The Chainsmokers, Halsey",Closer,Disruptor Records/Columbia,2,125,227,9824320,7BKLCZ1jbUBVqRi2FVlTVw,69GGBxA162lTqCwzJG5jLp,2016-07-29,False,89.0,unknown,21570813.0,83.0
-2026-01-15,125,OneRepublic,Counting Stars,Mosley / Interscope,86,127,246,9784058,2tpWsVSb9UEmDRxAl1zhX1,5Pwc4xIPtQLFEnJriah9YJ,2013-01-01,False,88.0,soft pop,19040008.0,84.0
-2026-01-15,126,Addison Rae,Fame is a Gun,Columbia,56,133,8,9773123,7B3BwNecBhKvNwSMOOl7Gk,4gvjmrtzydbMpyJaXUtwvP,2025-06-06,False,86.0,unknown,1661675.0,77.0
-2026-01-15,127,Laufey,From The Start,Laufey,97,124,28,9766712,43iIQbw5hx986dUEZbr3eN,7gW0r5CkdEUMm42w9XpyZO,2023-09-08,False,88.0,unknown,9210873.0,85.0
-2026-01-15,128,Lana Del Rey,Young And Beautiful,Polydor Records,119,119,46,9762322,2nMeu6UenVvwUktBCpLMK9,00FQb4jTyendYWaN8pK0wa,2013-01-01,False,89.0,unknown,54195415.0,91.0
-2026-01-15,129,Aditya Rikhari,Sahiba,T-Series,37,107,28,9715144,0eLtIxPRNJfsmehITZ1qaJ,3ozYqVCLohfpXIhalkhM8D,2023-12-19,False,89.0,hindi indie|indian indie|desi pop|hindi pop,2756219.0,78.0
-2026-01-15,130,Linkin Park,Numb,Warner Records,24,145,97,9680958,2nLtzopw4rPReszdYBJU6h,6XyY86QOPPrYVGvF9ch6wz,2003-03-25,False,89.0,nu metal|rap metal|rock|alternative metal,32934070.0,91.0
-2026-01-15,131,"Peso Pluma, Tito Double P",bckpckbyz,Double P Records,53,70,3,9665304,4qfkZtOGVw2BXa05wqXKkV,12GqGscKJx3aE4t07u7eVZ,2025-12-25,True,86.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sad sierreño|banda|electro corridos,25407668.0,93.0
+2026-01-15,123,Bad Bunny,VOY A LLeVARTE PA PR,Rimas Entertainment LLC.,8,150,46,9829987,59D4DOkspUbWyMmbAPQkxZ,4q3ewBCX7sLwd24euuV69X,2025-01-05,True,89.0,reggaeton|trap latino|urbano latino|latin,107065943.0,99.0
+2026-01-15,124,"The Chainsmokers, Halsey",Closer,Disruptor Records/Columbia,2,125,227,9824320,7BKLCZ1jbUBVqRi2FVlTVw,69GGBxA162lTqCwzJG5jLp,2016-07-29,False,89.0,unknown,21573461.0,83.0
+2026-01-15,125,OneRepublic,Counting Stars,Mosley / Interscope,86,127,246,9784058,2tpWsVSb9UEmDRxAl1zhX1,5Pwc4xIPtQLFEnJriah9YJ,2013-01-01,False,88.0,soft pop,19043805.0,84.0
+2026-01-15,126,Addison Rae,Fame is a Gun,Columbia,56,133,8,9773123,7B3BwNecBhKvNwSMOOl7Gk,4gvjmrtzydbMpyJaXUtwvP,2025-06-06,False,86.0,unknown,1664865.0,77.0
+2026-01-15,127,Laufey,From The Start,Laufey,97,124,28,9766712,43iIQbw5hx986dUEZbr3eN,7gW0r5CkdEUMm42w9XpyZO,2023-09-08,False,88.0,unknown,9217685.0,85.0
+2026-01-15,128,Lana Del Rey,Young And Beautiful,Polydor Records,119,119,46,9762322,2nMeu6UenVvwUktBCpLMK9,00FQb4jTyendYWaN8pK0wa,2013-01-01,False,89.0,unknown,54222317.0,91.0
+2026-01-15,129,Aditya Rikhari,Sahiba,T-Series,37,107,28,9715144,0eLtIxPRNJfsmehITZ1qaJ,3ozYqVCLohfpXIhalkhM8D,2023-12-19,False,88.0,hindi indie|indian indie|desi pop|hindi pop,2770598.0,78.0
+2026-01-15,130,Linkin Park,Numb,Warner Records,24,145,97,9680958,2nLtzopw4rPReszdYBJU6h,6XyY86QOPPrYVGvF9ch6wz,2003-03-25,False,89.0,nu metal|rap metal|rock|alternative metal,32946167.0,91.0
+2026-01-15,131,"Peso Pluma, Tito Double P",bckpckbyz,Double P Records,53,70,3,9665304,4qfkZtOGVw2BXa05wqXKkV,12GqGscKJx3aE4t07u7eVZ,2025-12-25,True,86.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sad sierreño|banda,25426473.0,93.0
 2026-01-15,132,"Don Omar, Lucenzo",Danza Kuduro,UMLE - Machete,80,120,107,9662028,2a1o6ZejUi8U3wzzOtCOYw,,,,,unknown,,
 2026-01-15,133,"Shashwat Sachdev, Arijit Singh, Irshad Kamil, Armaan Khan","Gehra Hua (From ""Dhurandhar"")",Saregama India Ltd,86,86,4,9660746,5MCbGWnNLLjoHpbDO3BOgi,,,,,unknown,,
-2026-01-15,134,TOTO,Africa,Columbia,95,95,96,9638039,2374M0fQpWi3dLnB54qaLX,0PFtn5NtBbbUNbU9EAmIWF,1982-04-08,False,89.0,yacht rock|soft rock,3885015.0,77.0
-2026-01-15,135,Ed Sheeran,Perfect,Atlantic Records UK,4,139,430,9611083,0tgVpDi06FyKpA1z0VMD4v,6eUKZXaKkcviH0Ku9w2n3V,2017-03-03,False,89.0,soft pop,124480810.0,90.0
+2026-01-15,134,TOTO,Africa,Columbia,95,95,96,9638039,2374M0fQpWi3dLnB54qaLX,0PFtn5NtBbbUNbU9EAmIWF,1982-04-08,False,89.0,yacht rock|soft rock,3886958.0,77.0
+2026-01-15,135,Ed Sheeran,Perfect,Atlantic Records UK,4,139,430,9611083,0tgVpDi06FyKpA1z0VMD4v,6eUKZXaKkcviH0Ku9w2n3V,2017-03-03,False,89.0,soft pop,124498353.0,90.0
 2026-01-15,136,Ed Sheeran,Photograph,Atlantic Records UK,41,147,211,9608545,6fxVffaTuwjgEk5h9QyRjy,,,,,unknown,,
-2026-01-15,137,"Omar Camacho, Victor Mendivil",2+2,Rico o Muerto Music LLC,81,126,23,9558319,2GP6UzoA55p6yYiPCGyEhg,0rUu2qzqezBrCddX1RuUyJ,2025-06-23,False,88.0,electro corridos|dembow belico|corrido|corridos tumbados,596945.0,79.0
-2026-01-15,138,The Weeknd,Die For You,Universal Republic Records,12,138,204,9486241,2LBqCSwhJGcFQeTHMVGwy3,1Xyo4u8uXC1ZmMpatF05PJ,2016-11-24,False,87.0,unknown,117396010.0,96.0
-2026-01-15,139,ILLIT,NOT CUTE ANYMORE,BELIFT LAB,113,113,7,9483056,1k0JAiH11gHL9dc5dfQjQr,36cgvBn0aadzOijnjjwqMN,2025-11-24,False,89.0,k-pop,4627365.0,81.0
-2026-01-15,140,a-ha,Take on Me,Rhino,56,74,83,9482063,2WfaOiMkCvy7F5fcp2zZ8L,2jzc5TC5TVFLXQlBNiIUzE,1985-06-01,False,89.0,new wave|synthpop,3044532.0,75.0
-2026-01-15,141,"Pitbull, AFROJACK, Ne-Yo, Nayer",Give Me Everything (feat. Nayer),Mr.305/Polo Grounds Music/J Records,72,140,62,9452694,4QNpBfC0zvjKqPJcyqBy9W,0TnOYISbd1XYRBk9myaseg,2011-06-17,False,88.0,unknown,12295622.0,87.0
-2026-01-15,142,Coldplay,The Scientist,Parlophone Records Limited,71,136,90,9388831,75JFxkI2RXiU7L9VXzMkle,4gzpq5DPGxSnKTe4SA8HAU,2002-08-27,False,89.0,unknown,62236836.0,91.0
-2026-01-15,143,One Direction,Night Changes,Syco Music,8,156,153,9381255,5O2P9iiztwhomNh8xkR9lJ,4AK6F7OLvEQ5QYCBNiQWHq,2014-11-17,False,88.0,unknown,40633961.0,85.0
-2026-01-15,144,The Clash,Should I Stay or Should I Go - Remastered,Sony Music UK,90,90,3,9367084,39shmbIHICJ2Wxnk1fPSdz,3RGLhK1IP9jnYFH4BRFJBS,,False,86.0,punk,3299425.0,74.0
-2026-01-15,145,Eminem,Without Me,Eminem Catalog PS,31,158,215,9322843,7lQ8MOhq6IN2w8EYcFNSUk,7dGJo4pcD2V6oG8kP0tJRR,2002-05-26,True,89.0,rap|hip hop,106800122.0,91.0
+2026-01-15,137,"Omar Camacho, Victor Mendivil",2+2,Rico o Muerto Music LLC,81,126,23,9558319,2GP6UzoA55p6yYiPCGyEhg,0rUu2qzqezBrCddX1RuUyJ,2025-06-23,False,88.0,electro corridos|dembow belico|corrido|corridos tumbados,604731.0,79.0
+2026-01-15,138,The Weeknd,Die For You,Universal Republic Records,12,138,204,9486241,2LBqCSwhJGcFQeTHMVGwy3,1Xyo4u8uXC1ZmMpatF05PJ,2016-11-24,False,87.0,unknown,117440006.0,96.0
+2026-01-15,139,ILLIT,NOT CUTE ANYMORE,BELIFT LAB,113,113,7,9483056,1k0JAiH11gHL9dc5dfQjQr,36cgvBn0aadzOijnjjwqMN,2025-11-24,False,89.0,k-pop,4637321.0,81.0
+2026-01-15,140,a-ha,Take on Me,Rhino,56,74,83,9482063,2WfaOiMkCvy7F5fcp2zZ8L,2jzc5TC5TVFLXQlBNiIUzE,1985-06-01,False,89.0,new wave|synthpop,3046018.0,75.0
+2026-01-15,141,"Pitbull, AFROJACK, Ne-Yo, Nayer",Give Me Everything (feat. Nayer),Mr.305/Polo Grounds Music/J Records,72,140,62,9452694,4QNpBfC0zvjKqPJcyqBy9W,0TnOYISbd1XYRBk9myaseg,2011-06-17,False,88.0,unknown,12299781.0,87.0
+2026-01-15,142,Coldplay,The Scientist,Parlophone Records Limited,71,136,90,9388831,75JFxkI2RXiU7L9VXzMkle,4gzpq5DPGxSnKTe4SA8HAU,2002-08-27,False,89.0,unknown,62251071.0,91.0
+2026-01-15,143,One Direction,Night Changes,Syco Music,8,156,153,9381255,5O2P9iiztwhomNh8xkR9lJ,4AK6F7OLvEQ5QYCBNiQWHq,2014-11-17,False,88.0,unknown,40638390.0,86.0
+2026-01-15,144,The Clash,Should I Stay or Should I Go - Remastered,Sony Music UK,90,90,3,9367084,39shmbIHICJ2Wxnk1fPSdz,3RGLhK1IP9jnYFH4BRFJBS,,False,86.0,punk,3300993.0,74.0
+2026-01-15,145,Eminem,Without Me,Eminem Catalog PS,31,158,215,9322843,7lQ8MOhq6IN2w8EYcFNSUk,7dGJo4pcD2V6oG8kP0tJRR,2002-05-26,True,89.0,rap|hip hop,106822404.0,91.0
 2026-01-15,146,Tom Odell,Another Love,ITNO/Columbia,15,153,249,9309818,7jtQIBanIiJOMS6RyCx6jZ,,,,,unknown,,
-2026-01-15,147,"B.o.B, Bruno Mars",Nothin' on You (feat. Bruno Mars),Rebel Rock/Grand Hustle/Atlantic,147,-1,1,9301761,59dLtGBS26x7kc0rHbaPrq,5ndkK3dpZLKtBklKjxNQwT,2010-04-27,False,86.0,unknown,2382616.0,77.0
+2026-01-15,147,"B.o.B, Bruno Mars",Nothin' on You (feat. Bruno Mars),Rebel Rock/Grand Hustle/Atlantic,147,-1,1,9301761,59dLtGBS26x7kc0rHbaPrq,5ndkK3dpZLKtBklKjxNQwT,2010-04-27,False,86.0,unknown,2384246.0,77.0
 2026-01-15,148,"Major Lazer, MØ, DJ Snake",Lean On (feat. MØ & DJ Snake),Third Pardee Records,113,152,31,9267469,4WxU1gDVmoH6gstgR0MT78,,,,,unknown,,
-2026-01-15,149,"Sean Paul, Dua Lipa",No Lie,Universal-Island Records Ltd.,80,163,42,9192686,48QmG1dfvMuYLxMPt7KSRA,3Isy6kedDrgPYoTS1dazA9,2018-06-29,False,88.0,dancehall,5429422.0,85.0
-2026-01-15,150,"Maroon 5, Wiz Khalifa",Payphone,Interscope Records*,70,148,86,9153840,1XGmzt0PVuFgQYYnV2It7A,04gDigrS5kc9YWfZHwBETP,2012-01-01,True,87.0,pop,46590444.0,88.0
-2026-01-15,151,"Beéle, Ovy On The Drums",mi refe,5020 Records,55,164,45,9147380,4zhk2RS2EZODmBW6il55Qj,7a0XAaPaK2aDSqa8p3QnC7,2025-05-15,False,86.0,latin afrobeats|reggaeton|pop urbano,3962240.0,89.0
-2026-01-15,152,Fleetwood Mac,The Chain - 2004 Remaster,Rhino/Warner Records,119,131,21,9139277,5e9TFTbltYBg2xThimr0rU,08GQAI4eElDnROBrJRGE0X,1977-02-04,False,88.0,classic rock|yacht rock|soft rock,14511792.0,86.0
-2026-01-15,153,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,Warner Records,153,-1,1,9134324,1DwscornXpj8fmOmYVlqZt,78rUTD7y6Cy67W1RVzYs7t,2025-10-10,False,87.0,bedroom pop,5050424.0,81.0
+2026-01-15,149,"Sean Paul, Dua Lipa",No Lie,Universal-Island Records Ltd.,80,163,42,9192686,48QmG1dfvMuYLxMPt7KSRA,3Isy6kedDrgPYoTS1dazA9,2018-06-29,False,88.0,dancehall,5431401.0,85.0
+2026-01-15,150,"Maroon 5, Wiz Khalifa",Payphone,Interscope Records*,70,148,86,9153840,1XGmzt0PVuFgQYYnV2It7A,04gDigrS5kc9YWfZHwBETP,2012-01-01,True,87.0,pop,46599378.0,88.0
+2026-01-15,151,"Beéle, Ovy On The Drums",mi refe,5020 Records,55,164,45,9147380,4zhk2RS2EZODmBW6il55Qj,7a0XAaPaK2aDSqa8p3QnC7,2025-05-15,False,86.0,latin afrobeats|reggaeton|pop urbano,3969972.0,89.0
+2026-01-15,152,Fleetwood Mac,The Chain - 2004 Remaster,Rhino/Warner Records,119,131,21,9139277,5e9TFTbltYBg2xThimr0rU,08GQAI4eElDnROBrJRGE0X,1977-02-04,False,88.0,classic rock|yacht rock|soft rock,14517957.0,86.0
+2026-01-15,153,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,Warner Records,153,-1,1,9134324,1DwscornXpj8fmOmYVlqZt,78rUTD7y6Cy67W1RVzYs7t,2025-10-10,False,88.0,bedroom pop,5056105.0,81.0
 2026-01-15,154,"Rihanna, Calvin Harris",We Found Love,Def Jam Recordings,59,121,101,9108999,1zv3WFUbZ5vPxFq9I2jAU1,,,,,unknown,,
 2026-01-15,155,KAROL G,Si Antes Te Hubiera Conocido,Bichota/Interscope Records,5,142,75,9060620,73scB4Q4fcOmnsBVZPmk32,,,,,unknown,,
 2026-01-15,156,"Justin Bieber, Chance the Rapper",Confident,RBMG/Def Jam,154,172,18,9056630,6czM6UMQD9qE5GAUp68oud,,,,,unknown,,
 2026-01-15,157,Lola Young,Messy,Universal-Island Records Ltd.,7,117,57,9053415,35ISBknsCeZQtq66xABI9g,,,,,unknown,,
 2026-01-15,158,Chappell Roan,Pink Pony Club,Chappell Roan PS/ Island,24,106,71,9052304,6393yGahSJ9slVdOwSxOVR,,,,,unknown,,
-2026-01-15,159,Zach Bryan,Plastic Cigarette,Warner Records,159,-1,1,9022783,2jCJjRc9mz6VYBMhLy3H9i,40ZNYROS4zLfyyBSs2PGe2,2026-01-09,False,82.0,country|red dirt,7685610.0,90.0
-2026-01-15,160,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Rimas Entertainment LLC.,9,-1,47,9009325,7d6yK8v8J484SWH5prIQiE,4q3ewBCX7sLwd24euuV69X,2025-01-05,True,89.0,reggaeton|trap latino|urbano latino|latin,107003839.0,99.0
-2026-01-15,161,Bruno Mars,Marry You,Elektra (NEK),161,-1,1,8994171,6SKwQghsR8AISlxhcwyA9R,0du5cEVh5yTK9QJze8zA0C,2010-05-11,False,83.0,unknown,78309743.0,95.0
+2026-01-15,159,Zach Bryan,Plastic Cigarette,Warner Records,159,-1,1,9022783,2jCJjRc9mz6VYBMhLy3H9i,40ZNYROS4zLfyyBSs2PGe2,2026-01-09,False,83.0,country|red dirt,7689836.0,90.0
+2026-01-15,160,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Rimas Entertainment LLC.,9,-1,47,9009325,7d6yK8v8J484SWH5prIQiE,4q3ewBCX7sLwd24euuV69X,2025-01-05,True,89.0,reggaeton|trap latino|urbano latino|latin,107065943.0,99.0
+2026-01-15,161,Bruno Mars,Marry You,Elektra (NEK),161,-1,1,8994171,6SKwQghsR8AISlxhcwyA9R,0du5cEVh5yTK9QJze8zA0C,2010-05-11,False,83.0,unknown,78345629.0,95.0
 2026-01-15,162,Rihanna,Don't Stop The Music,Def Jam Recordings,156,162,12,8932155,1Jo0Zg7XlrA6z0mFTZVdkn,,,,,unknown,,
-2026-01-15,163,"Macklemore, Ryan Lewis, Macklemore & Ryan Lewis, Ray Dalton",Can't Hold Us (feat. Ray Dalton),Macklemore,86,141,183,8916564,22skzmqfdWrjJylampe0kt,3JhNCzhSMTxs9WLGJJxWOY,2012-10-09,False,85.0,unknown,2920624.0,77.0
-2026-01-15,164,Madison Beer,bittersweet,Epic/Sing It Loud,146,146,7,8904669,3A02hWQ2ebOFDWSbAMNnpw,2kRfqPViCqYdSGhYSM9R0Q,2025-10-10,False,88.0,unknown,9201601.0,80.0
+2026-01-15,163,"Macklemore, Ryan Lewis, Macklemore & Ryan Lewis, Ray Dalton",Can't Hold Us (feat. Ray Dalton),Macklemore,86,141,183,8916564,22skzmqfdWrjJylampe0kt,3JhNCzhSMTxs9WLGJJxWOY,2012-10-09,False,85.0,unknown,2921730.0,77.0
+2026-01-15,164,Madison Beer,bittersweet,Epic/Sing It Loud,146,146,7,8904669,3A02hWQ2ebOFDWSbAMNnpw,2kRfqPViCqYdSGhYSM9R0Q,2025-10-10,False,88.0,unknown,9207332.0,80.0
 2026-01-15,165,Chris Grey,LET THE WORLD BURN,Chris Grey,151,151,6,8892436,0YVh3SyU4dS7jOWIFQ1tTf,,,,,unknown,,
-2026-01-15,166,Taylor Swift,Cruel Summer,Taylor Swift,2,154,143,8868839,1BxfuPKGuaTgP7aM0Bbdwr,06HL4z0CvFAxyc27GXpf02,2019-08-23,False,89.0,unknown,150343698.0,100.0
+2026-01-15,166,Taylor Swift,Cruel Summer,Taylor Swift,2,154,143,8868839,1BxfuPKGuaTgP7aM0Bbdwr,06HL4z0CvFAxyc27GXpf02,2019-08-23,False,89.0,unknown,150400359.0,100.0
 2026-01-15,167,Rihanna,Breakin' Dishes,Def Jam Recordings,39,149,41,8853422,5EcG8eMMlwkHRVa4aTR1qd,,,,,unknown,,
-2026-01-15,168,The Marías,Sienna,Nice Life/Atlantic,89,144,18,8833709,0InIeZW4P6VO7dUGRM4AKH,2sSGPbdZJkaSE2AbcGOACx,2024-05-31,False,89.0,bedroom pop,4318566.0,85.0
-2026-01-15,169,Charlie Puth,Attention,Artist Partner,5,161,84,8829192,5cF0dROlMOK5uNZtivgu50,6VuMaDnrHyPL1p4EHjYLi7,2018-05-11,False,88.0,soft pop|pop,25762818.0,83.0
-2026-01-15,170,Linkin Park,Somewhere I Belong,Warner Records,138,-1,2,8810300,3fjmSxt0PskST13CSdBUFx,6XyY86QOPPrYVGvF9ch6wz,2003-03-25,False,85.0,nu metal|rap metal|rock|alternative metal,32934070.0,91.0
-2026-01-15,171,"Billie Eilish, Khalid",lovely (with Khalid),Darkroom,24,196,396,8783625,0u2P5u6lvoDfwTYjAADbn4,6qqNVTkY8uBg9cP3Jd7DAH,2018-04-19,False,88.0,unknown,122190602.0,93.0
-2026-01-15,172,EsDeeKid,Century,Lizzy Records,172,190,2,8741738,1lJOLxDS8kS2rihrqezMcv,0EyhkwP3UnwGFBy6xwKjSy,2025-10-31,True,88.0,unknown,1290077.0,86.0
-2026-01-15,173,t.A.T.u.,All The Things She Said,Interscope,173,-1,1,8707269,4bJygwUKrRgq1stlNXcgMg,2Q3eZMfDQgT8MhPowKFXYO,,True,87.0,unknown,1191874.0,71.0
-2026-01-15,174,"HAVEN., Kaitlin Aragon",I Run,Isekai / Broke / AAO,101,178,7,8694348,1WwQ714xuznu44tEnkem2g,7ouEqUl1PCVPlNninecdcz,2025-11-21,False,89.0,unknown,29834.0,72.0
-2026-01-15,175,"Charlie Puth, Selena Gomez",We Don't Talk Anymore (feat. Selena Gomez),Artist Partner,39,-1,64,8689773,54PbBpquVfhfrwRwvjSXbI,6VuMaDnrHyPL1p4EHjYLi7,2015-11-05,False,84.0,soft pop|pop,25762818.0,83.0
-2026-01-15,176,Sabrina Carpenter,Tears,Island Records,2,134,19,8676441,42VUCXerQ5qTr4Qp6PhKo4,74KM79TiuVKeVCqs8QtB0B,2025-08-29,False,89.0,pop,28998690.0,92.0
-2026-01-15,177,Tate McRae,greedy,RCA Records Label,1,167,113,8676149,3rUGC1vUpkDG9CZFHMur1t,45dkTj5sMRSjrmBSBeiHym,2023-09-15,True,88.0,unknown,10098930.0,91.0
-2026-01-15,178,"Coolio, L.V.",Gangsta's Paradise,"Tommy Boy Music, LLC",40,181,105,8674970,1DIXPcTDzTj8ZMHt3PDt8p,3y24n3XhZ96wgwRXjvS17T,1995-11-07,False,88.0,west coast hip hop|g-funk,2024861.0,72.0
+2026-01-15,168,The Marías,Sienna,Nice Life/Atlantic,89,144,18,8833709,0InIeZW4P6VO7dUGRM4AKH,2sSGPbdZJkaSE2AbcGOACx,2024-05-31,False,89.0,bedroom pop,4323952.0,85.0
+2026-01-15,169,Charlie Puth,Attention,Artist Partner,5,161,84,8829192,5cF0dROlMOK5uNZtivgu50,6VuMaDnrHyPL1p4EHjYLi7,2018-05-11,False,88.0,soft pop|pop,25767991.0,83.0
+2026-01-15,170,Linkin Park,Somewhere I Belong,Warner Records,138,-1,2,8810300,3fjmSxt0PskST13CSdBUFx,6XyY86QOPPrYVGvF9ch6wz,2003-03-25,False,85.0,nu metal|rap metal|rock|alternative metal,32946167.0,91.0
+2026-01-15,171,"Billie Eilish, Khalid",lovely (with Khalid),Darkroom,24,196,396,8783625,0u2P5u6lvoDfwTYjAADbn4,6qqNVTkY8uBg9cP3Jd7DAH,2018-04-19,False,88.0,unknown,122223610.0,93.0
+2026-01-15,172,EsDeeKid,Century,Lizzy Records,172,190,2,8741738,1lJOLxDS8kS2rihrqezMcv,0EyhkwP3UnwGFBy6xwKjSy,2025-10-31,True,88.0,unknown,1298053.0,86.0
+2026-01-15,173,t.A.T.u.,All The Things She Said,Interscope,173,-1,1,8707269,4bJygwUKrRgq1stlNXcgMg,2Q3eZMfDQgT8MhPowKFXYO,,True,87.0,unknown,1193054.0,71.0
+2026-01-15,174,"HAVEN., Kaitlin Aragon",I Run,Isekai / Broke / AAO,101,178,7,8694348,1WwQ714xuznu44tEnkem2g,7ouEqUl1PCVPlNninecdcz,2025-11-21,False,89.0,unknown,30037.0,72.0
+2026-01-15,175,"Charlie Puth, Selena Gomez",We Don't Talk Anymore (feat. Selena Gomez),Artist Partner,39,-1,64,8689773,54PbBpquVfhfrwRwvjSXbI,6VuMaDnrHyPL1p4EHjYLi7,2015-11-05,False,84.0,soft pop|pop,25767991.0,83.0
+2026-01-15,176,Sabrina Carpenter,Tears,Island Records,2,134,19,8676441,42VUCXerQ5qTr4Qp6PhKo4,74KM79TiuVKeVCqs8QtB0B,2025-08-29,False,89.0,pop,29024118.0,92.0
+2026-01-15,177,Tate McRae,greedy,RCA Records Label,1,167,113,8676149,3rUGC1vUpkDG9CZFHMur1t,45dkTj5sMRSjrmBSBeiHym,2023-09-15,True,88.0,unknown,10106025.0,91.0
+2026-01-15,178,"Coolio, L.V.",Gangsta's Paradise,"Tommy Boy Music, LLC",40,181,105,8674970,1DIXPcTDzTj8ZMHt3PDt8p,3y24n3XhZ96wgwRXjvS17T,1995-11-07,False,88.0,west coast hip hop|g-funk,2026251.0,72.0
 2026-01-15,179,Lana Del Rey,Summertime Sadness,Urban,83,197,153,8674190,1FEiijYPJtyswChfcpv3p0,,,,,unknown,,
-2026-01-15,180,BLACKPINK,JUMP,YG Entertainment,1,159,26,8668143,5H1sKFMzDeMtXwND3V6hRY,41MozSoPIsD1dJM0CLPjZF,2025-07-11,False,89.0,k-pop,57276005.0,83.0
-2026-01-15,181,Lady Gaga,Poker Face,Streamline/Interscope,37,170,49,8660986,1QV6tiMFM6fSOKOGLMHYYg,1HY2Jd0NmPuamShAr6KMms,2008-01-01,True,85.0,art pop|pop,44207423.0,91.0
-2026-01-15,182,Rihanna,Love On The Brain,Roc Nation / Rihanna,68,-1,33,8648779,5oO3drDxtziYU2H1X23ZIp,5pKCCKE2ajJHZ9KAiaK11H,2016-01-28,True,88.0,unknown,71000787.0,93.0
-2026-01-15,183,Justin Bieber,Love Yourself,RBMG/Def Jam,62,193,60,8637168,50kpGaPAhYJ3sGmk6vplg0,1uNFoZAHBGtllmzznpCI3s,2015-11-13,False,87.0,unknown,86567550.0,94.0
-2026-01-15,184,Guns N' Roses,Sweet Child O' Mine,Guns N Roses P&D,101,171,57,8631827,7snQQk1zcKl8gZ92AnueZW,3qm84nBOXUEQ2vnTfUTTFC,1987-07-21,False,89.0,rock|glam metal|hard rock|classic rock,36150362.0,82.0
-2026-01-15,185,"Panda, MJ Records",Eu Te Seguro - Ao Vivo,Sony Music Entertainment,164,168,3,8579732,4V2rUOmaevK0C1bKAkeFf5,5qIpstBGrGteJZg1xIvbiz,2025-10-23,False,80.0,sertanejo|sertanejo universitário,420409.0,84.0
-2026-01-15,186,"Shakira, Wyclef Jean",Hips Don't Lie (feat. Wyclef Jean),Epic,82,169,39,8574173,3d0WouFnFmr0K3kjeza3fF,0EmeFodog0BfCgMzAIvKQp,2005-11-28,False,88.0,latin pop,41028369.0,89.0
+2026-01-15,180,BLACKPINK,JUMP,YG Entertainment,1,159,26,8668143,5H1sKFMzDeMtXwND3V6hRY,41MozSoPIsD1dJM0CLPjZF,2025-07-11,False,89.0,k-pop,57293866.0,83.0
+2026-01-15,181,Lady Gaga,Poker Face,Streamline/Interscope,37,170,49,8660986,1QV6tiMFM6fSOKOGLMHYYg,1HY2Jd0NmPuamShAr6KMms,2008-01-01,True,85.0,art pop|pop,44225427.0,91.0
+2026-01-15,182,Rihanna,Love On The Brain,Roc Nation / Rihanna,68,-1,33,8648779,5oO3drDxtziYU2H1X23ZIp,5pKCCKE2ajJHZ9KAiaK11H,2016-01-28,True,88.0,unknown,71021292.0,93.0
+2026-01-15,183,Justin Bieber,Love Yourself,RBMG/Def Jam,62,193,60,8637168,50kpGaPAhYJ3sGmk6vplg0,1uNFoZAHBGtllmzznpCI3s,2015-11-13,False,87.0,unknown,86586987.0,94.0
+2026-01-15,184,Guns N' Roses,Sweet Child O' Mine,Guns N Roses P&D,101,171,57,8631827,7snQQk1zcKl8gZ92AnueZW,3qm84nBOXUEQ2vnTfUTTFC,1987-07-21,False,89.0,rock|glam metal|hard rock|classic rock,36160351.0,82.0
+2026-01-15,185,"Panda, MJ Records",Eu Te Seguro - Ao Vivo,Sony Music Entertainment,164,168,3,8579732,4V2rUOmaevK0C1bKAkeFf5,5qIpstBGrGteJZg1xIvbiz,2025-10-23,False,80.0,sertanejo|sertanejo universitário,424552.0,84.0
+2026-01-15,186,"Shakira, Wyclef Jean",Hips Don't Lie (feat. Wyclef Jean),Epic,82,169,39,8574173,3d0WouFnFmr0K3kjeza3fF,0EmeFodog0BfCgMzAIvKQp,2005-11-28,False,88.0,latin pop,41040754.0,89.0
 2026-01-15,187,A$AP Rocky,PUNK ROCKY,A$AP Worldwide/RCA Records,187,-1,1,8572506,5FSvy2wYKnurBi0Nq3wR9F,,,,,unknown,,
 2026-01-15,188,Cigarettes After Sex,Cry,Partisan Records,69,173,49,8572068,3p4hRhMcb6ch8OLtATMaLw,,,,,unknown,,
-2026-01-15,189,Twenty One Pilots,Stressed Out,Fueled By Ramen,63,188,61,8562899,3CRDbSIZ4r5MsZ0YwxuEkn,3YQKmKGau1PzlVlkL1iodx,2015-05-15,False,88.0,unknown,26037771.0,85.0
-2026-01-15,190,Rihanna,Only Girl (In The World),Def Jam Recordings,99,160,13,8558951,2ENexcMEMsYk0rVJigVD3i,5pKCCKE2ajJHZ9KAiaK11H,2010-01-01,False,87.0,unknown,71000787.0,93.0
-2026-01-15,191,"French Montana, Swae Lee",Unforgettable,Bad Boy Entertainment/Epic Records,3,194,129,8534595,3B54sVLJ402zGa6Xm4YGNe,6vXTefBL93Dj5IqAWq6OTv,2017-07-14,True,87.0,unknown,5951292.0,77.0
-2026-01-15,192,Olivia Dean,Dive,PLG - Capitol,178,180,3,8511421,36vmaZyO0iAE6FZ7287fg2,00x1fYSGhdqScXBRpSj3DW,2023-06-30,False,88.0,pop soul,2724357.0,93.0
-2026-01-15,193,"The Chainsmokers, Coldplay",Something Just Like This,Disruptor Records/Columbia,2,166,288,8509146,6RUKPb4LETWmmr3iAEQktW,69GGBxA162lTqCwzJG5jLp,2017-04-07,False,88.0,unknown,21570813.0,83.0
-2026-01-15,194,Hozier,Take Me To Church,Universal-Island Records Ltd.,108,177,209,8497845,3dYD57lRAUcMHufyqn9GcI,2FXC3k01G6Gw61bmprjgqS,2014-09-19,False,85.0,unknown,9298592.0,84.0
-2026-01-15,195,Fuerza Regida,TU SANCHO,Rancho Humilde/Street Mob Records/Sony Music Latin,11,-1,33,8465962,6eLQXa6uk2EW8drsiKbABZ,0ys2OFYzWYB5hRDLCsBqxt,2025-05-02,True,87.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sierreño|banda|sad sierreño|electro corridos,22384117.0,92.0
-2026-01-15,196,"MC GP, Mc Lele JP, DJ DAVI DOGDOG, Dj Andrabeat",ME POSTOU NO DAILY - FESTA DO BIG G,WM Brazil,140,-1,7,8426606,4ukpXdplqDEMk3Fy2i30oI,5s27i7oqhNWIcE4HeoVdq0,2025-11-27,True,79.0,brazilian funk|funk consciente|trap funk,2234283.0,79.0
-2026-01-15,197,Benson Boone,Mystical Magical,"Night Street Records, Inc./Warner Records Inc.",34,182,33,8398664,2ipIPsgrgd0j2beDf4Ki70,22wbnEMDvgVIAGdFeek6ET,2025-06-20,False,84.0,unknown,7605154.0,85.0
-2026-01-15,198,"V, Park Hyo Shin",Winter Ahead (with PARK HYO SHIN),BIGHIT MUSIC,21,129,56,8396002,7G7mSV4BebkoHWwKTDvXu9,3JsHnjpbhX4SnySpvpa9DK,2024-11-29,False,83.0,k-pop,20330315.0,78.0
-2026-01-15,199,Junior H,MIENTRAS DUERMES,WEA Latina,134,184,16,8382504,4e76Ss3ji7HQZ4qwcPNkNA,7Gi6gjaWy3DxyilpF1a8Is,2023-10-05,True,87.0,corridos tumbados|corrido|corridos bélicos|sad sierreño|sierreño|música mexicana|banda,30159282.0,90.0
-2026-01-15,200,Creedence Clearwater Revival,Have You Ever Seen The Rain,Craft Recordings,75,176,63,8377844,2LawezPeJhN4AWuSB0GtAU,3IYUhFvPQItj6xySrBmZkd,1970-12-07,False,87.0,classic rock|southern rock|country rock,8160932.0,80.0
+2026-01-15,189,Twenty One Pilots,Stressed Out,Fueled By Ramen,63,188,61,8562899,3CRDbSIZ4r5MsZ0YwxuEkn,3YQKmKGau1PzlVlkL1iodx,2015-05-15,False,88.0,unknown,26040495.0,85.0
+2026-01-15,190,Rihanna,Only Girl (In The World),Def Jam Recordings,99,160,13,8558951,2ENexcMEMsYk0rVJigVD3i,5pKCCKE2ajJHZ9KAiaK11H,2010-01-01,False,87.0,unknown,71021292.0,93.0
+2026-01-15,191,"French Montana, Swae Lee",Unforgettable,Bad Boy Entertainment/Epic Records,3,194,129,8534595,3B54sVLJ402zGa6Xm4YGNe,6vXTefBL93Dj5IqAWq6OTv,2017-07-14,True,87.0,unknown,5952513.0,77.0
+2026-01-15,192,Olivia Dean,Dive,PLG - Capitol,178,180,3,8511421,36vmaZyO0iAE6FZ7287fg2,00x1fYSGhdqScXBRpSj3DW,2023-06-30,False,88.0,pop soul,2735646.0,93.0
+2026-01-15,193,"The Chainsmokers, Coldplay",Something Just Like This,Disruptor Records/Columbia,2,166,288,8509146,6RUKPb4LETWmmr3iAEQktW,69GGBxA162lTqCwzJG5jLp,2017-04-07,False,88.0,unknown,21573461.0,83.0
+2026-01-15,194,Hozier,Take Me To Church,Universal-Island Records Ltd.,108,177,209,8497845,3dYD57lRAUcMHufyqn9GcI,2FXC3k01G6Gw61bmprjgqS,2014-09-19,False,84.0,unknown,9300500.0,84.0
+2026-01-15,195,Fuerza Regida,TU SANCHO,Rancho Humilde/Street Mob Records/Sony Music Latin,11,-1,33,8465962,6eLQXa6uk2EW8drsiKbABZ,0ys2OFYzWYB5hRDLCsBqxt,2025-05-02,True,87.0,corrido|corridos tumbados|corridos bélicos|música mexicana|sierreño|banda|sad sierreño|electro corridos,22411807.0,92.0
+2026-01-15,196,"MC GP, Mc Lele JP, DJ DAVI DOGDOG, Dj Andrabeat",ME POSTOU NO DAILY - FESTA DO BIG G,WM Brazil,140,-1,7,8426606,4ukpXdplqDEMk3Fy2i30oI,5s27i7oqhNWIcE4HeoVdq0,2025-11-27,True,79.0,brazilian funk|funk consciente|trap funk,2236373.0,79.0
+2026-01-15,197,Benson Boone,Mystical Magical,"Night Street Records, Inc./Warner Records Inc.",34,182,33,8398664,2ipIPsgrgd0j2beDf4Ki70,22wbnEMDvgVIAGdFeek6ET,2025-06-20,False,84.0,unknown,7610224.0,85.0
+2026-01-15,198,"V, Park Hyo Shin",Winter Ahead (with PARK HYO SHIN),BIGHIT MUSIC,21,129,56,8396002,7G7mSV4BebkoHWwKTDvXu9,3JsHnjpbhX4SnySpvpa9DK,2024-11-29,False,83.0,k-pop,20334057.0,78.0
+2026-01-15,199,Junior H,MIENTRAS DUERMES,WEA Latina,134,184,16,8382504,4e76Ss3ji7HQZ4qwcPNkNA,7Gi6gjaWy3DxyilpF1a8Is,2023-10-05,True,87.0,corridos tumbados|corrido|corridos bélicos|sad sierreño|sierreño|música mexicana|banda,30181941.0,90.0
+2026-01-15,200,Creedence Clearwater Revival,Have You Ever Seen The Rain,Craft Recordings,75,176,63,8377844,2LawezPeJhN4AWuSB0GtAU,3IYUhFvPQItj6xySrBmZkd,1970-12-07,False,87.0,classic rock|southern rock|country rock,8163249.0,80.0
